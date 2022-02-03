@@ -6,7 +6,7 @@ Modify the docusaurus.config.js file at your site's root instead.
 export default {
   "title": "My Site",
   "tagline": "Dinosaurs are cool",
-  "url": "https://your-docusaurus-test-site.com",
+  "url": "https://learn.carobot.ca/",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
@@ -18,7 +18,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/jacky/projects/carobot-learn/sidebars.js",
+          "sidebarPath": "/home/jacky/projects/carobot.github.io/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -26,7 +26,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/home/jacky/projects/carobot-learn/src/css/custom.css"
+          "customCss": "/home/jacky/projects/carobot.github.io/src/css/custom.css"
         }
       }
     ]
