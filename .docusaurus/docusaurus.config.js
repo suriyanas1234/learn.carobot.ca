@@ -21,11 +21,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/home/jacky/projects/carobot.github.io/sidebars.js",
-          "editUrl": "https://github.com/carobot/"
+          "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/carobot/"
+          "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/"
         },
         "theme": {
           "customCss": "/home/jacky/projects/carobot.github.io/src/css/custom.css"
@@ -48,6 +48,11 @@ export default {
           "label": "Tutorial"
         },
         {
+          "href": "https://www.canadarobotix.com",
+          "label": "Canada Robotix",
+          "position": "right"
+        },
+        {
           "href": "https://github.com/carobot/",
           "label": "GitHub",
           "position": "right"
@@ -68,7 +73,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 CAROBOTIX Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 CAROBOTIX INC. Built with Docusaurus."
     },
     "prism": {
       "theme": {

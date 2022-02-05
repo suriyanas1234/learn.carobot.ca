@@ -26,13 +26,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/carobot/carobot.github.io/',
+          editUrl: 'https://github.com/carobot/carobot.github.io/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/carobot/carobot.github.io/',
+            'https://github.com/carobot/carobot.github.io/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -58,6 +58,11 @@ const config = {
             label: 'Tutorial',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://www.canadarobotix.com',
+            label: 'Canada Robotix',
+            position: 'right',
+          },
           {
             href: 'https://github.com/carobot/',
             label: 'GitHub',
@@ -108,7 +113,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CAROBOTIX Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CAROBOTIX INC. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
