@@ -4,26 +4,28 @@ Your edits in this file will be overwritten in the next build!
 Modify the docusaurus.config.js file at your site's root instead.
 */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "Learn at CAROBOTIX",
+  "tagline": "Learning robotics is cool! We love robotics!",
   "url": "https://learn.carobot.ca/",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "favicon": "img/canada-robotix-robot.ico",
+  "organizationName": "carobot",
+  "projectName": "carobot.github.io",
+  "deploymentBranch": "gh-pages",
+  "trailingSlash": false,
   "presets": [
     [
       "classic",
       {
         "docs": {
           "sidebarPath": "/home/jacky/projects/carobot.github.io/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/carobot/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/carobot/"
         },
         "theme": {
           "customCss": "/home/jacky/projects/carobot.github.io/src/css/custom.css"
@@ -33,10 +35,10 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "Learn at CAROBOTIX",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "Learn at CAROBOTIX",
+        "src": "img/Canada-Robotix-Robot-PNG.png"
       },
       "items": [
         {
@@ -46,12 +48,7 @@ export default {
           "label": "Tutorial"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/carobot/",
           "label": "GitHub",
           "position": "right"
         }
@@ -69,39 +66,9 @@ export default {
               "to": "/docs/intro"
             }
           ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
         }
       ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 CAROBOTIX Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {

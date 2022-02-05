@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Tutorial Intro",
-    "permalink": "/docs/intro"
+    "title": "Intro to KiCAD Basic Tutorial",
+    "permalink": "/docs/kicad/kicad-basic"
   },
   "next": {
     "title": "Create a Document",

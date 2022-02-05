@@ -7,7 +7,7 @@
   "sourceDirName": ".",
   "slug": "/intro",
   "permalink": "/docs/intro",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+  "editUrl": "https://github.com/carobot/docs/intro.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Create a Page",
-    "permalink": "/docs/tutorial-basics/create-a-page"
+    "title": "Intro to KiCAD Basic Tutorial",
+    "permalink": "/docs/kicad/kicad-basic"
   }
 }
