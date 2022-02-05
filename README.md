@@ -1,5 +1,7 @@
 # Learn at CAROBOTIX Website
 
+[Learn at CAROBOTIX] (https://learn.carobot.ca/)
+
 This website is an open-source learning tool and reference documentation for us here at [Canada Robotix](https://www.canadarobotix.com/) (CAROBOTIX INC.), our supporters, and everyone on the internet.
 
 ### Updating and Contributing
