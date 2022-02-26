@@ -1,10 +1,6 @@
 # Learn at CAROBOTIX Website
 
-<<<<<<< Updated upstream
-[Learn at CAROBOTIX](https://learn.carobot.ca/) (https://learn.carobot.ca/)
-=======
 [Learn at CAROBOT](https://learn.carobot.ca/) ([https://learn.carobot.ca/](https://learn.carobot.ca/)) is an open-source learning tool and reference documentation for us here at [Canada Robotix](https://www.canadarobotix.com/) (CAROBOTIX INC.) and [CAROBOT Learning and Research Organization](https://www.carobot.org), our supporters, and everyone on the internet.
->>>>>>> Stashed changes
 
 ## Updating and Contributing
 
