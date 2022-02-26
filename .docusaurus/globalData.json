@@ -21,13 +21,38 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tinkerkit/tinkerkit-1",
-              "path": "/tinkerkit/tinkerkit-1",
+              "id": "product_guide/glowing-heart",
+              "path": "/product_guide/glowing-heart",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "products/glowing-heart",
-              "path": "/docs/products/glowing-heart",
+              "id": "tinkerkit/tinkerkit-1",
+              "path": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tinkerkit/tinkerkit-2",
+              "path": "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tinkerkit/tinkerkit-3",
+              "path": "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tinkerkit/tinkerkit-4",
+              "path": "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tinkerkit/tinkerkit-5",
+              "path": "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tinkerkit/tinkerkit-6",
+              "path": "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
               "sidebar": "tutorialSidebar"
             }
           ],

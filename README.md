@@ -12,6 +12,25 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 - [Node.js](https://nodejs.org/en/download/) version >= 14 or above (which can be checked by running `node -v`). You can use [nvm](https://github.com/nvm-sh/nvm) for managing multiple Node versions on a single machine installed.
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [yarn](https://yarnpkg.com/) if yarn is not already install with Node.js (which can be checked by running `yarn -v`)
+
+## Fork, Clone and Change
+
+Create a fork of this repo then clone it onto your local machine.
+
+```
+$ git clone https://github.com/{your username}/carobot.hithub.io
+$ cd carobot.github.io/
+```
+Create a new branch off of the `main` branch for your change.
+```
+$ git checkout -b {new branch name} main
+```
+If a new branch was created already, go to your branch.
+```
+$ git checkout {new branch name}
+```
+Make your changes and save.
 
 ## Installation
 
@@ -26,20 +45,6 @@ $ yarn start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Fork, Clone and Change
-
-Create a fork of this repo then clone it onto your local machine.
-
-```
-$ git clone https://github.com/{your username}/carobot.hithub.io
-$ cd carobot.github.io/
-```
-Create a new branch off of the `main` branch for your change.
-```
-$ git checkout -b {new branch name} main
-```
-Make your changes and save.
 
 ## Build
 

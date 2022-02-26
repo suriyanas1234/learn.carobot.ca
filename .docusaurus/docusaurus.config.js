@@ -69,12 +69,12 @@ export default {
           "items": [
             {
               "label": "Tutorial",
-              "to": "/docs/intro"
+              "to": "/intro"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2022 CAROBOTIX INC. in collaboration with CAROBOT Learning and Research Organization. Built with Docusaurus."
+      "copyright": "Copyright © 2022 CAROBOTIX INC. In collaboration with CAROBOT Learning and Research Organization. Built with Docusaurus."
     },
     "prism": {
       "theme": {

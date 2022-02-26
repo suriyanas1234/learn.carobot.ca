@@ -17,18 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Tutorial Intro",
-<<<<<<< Updated upstream
-    "permalink": "/docs/intro"
-  },
-  "next": {
-    "title": "glowing-heart",
-    "permalink": "/docs/products/glowing-heart"
-=======
     "permalink": "/intro"
   },
   "next": {
-    "title": "Intro to KiCAD Basic Tutorial",
-    "permalink": "/tinkerkit/tinkerkit-1"
->>>>>>> Stashed changes
+    "title": "TinkerKit LCD - Tutorial 01 - Windows Installation Guide",
+    "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide"
   }
 }

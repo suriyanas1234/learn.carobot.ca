@@ -79,7 +79,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/intro',
               },
             ],
           },
@@ -114,7 +114,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CAROBOTIX INC. in collaboration with CAROBOT Learning and Research Organization. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CAROBOTIX INC. In collaboration with CAROBOT Learning and Research Organization. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
