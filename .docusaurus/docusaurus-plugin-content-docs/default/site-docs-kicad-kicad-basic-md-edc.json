@@ -18,5 +18,9 @@
   "previous": {
     "title": "Tutorial Intro",
     "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "glowing-heart",
+    "permalink": "/docs/products/glowing-heart"
   }
 }

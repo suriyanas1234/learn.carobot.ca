@@ -27,6 +27,20 @@
             "docId": "kicad/kicad-basic"
           }
         ]
+      },
+      {
+        "type": "category",
+        "label": "Products Usage Guide",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "glowing-heart",
+            "href": "/docs/products/glowing-heart",
+            "docId": "products/glowing-heart"
+          }
+        ]
       }
     ]
   },
@@ -41,6 +55,12 @@
       "id": "kicad/kicad-basic",
       "title": "Intro to KiCAD Basic Tutorial",
       "description": "Installation",
+      "sidebar": "tutorialSidebar"
+    },
+    "products/glowing-heart": {
+      "id": "products/glowing-heart",
+      "title": "glowing-heart",
+      "description": "Testing Import",
       "sidebar": "tutorialSidebar"
     }
   }

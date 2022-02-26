@@ -1,6 +1,6 @@
 # Learn at CAROBOTIX Website
 
-[Learn at CAROBOTIX] (https://learn.carobot.ca/)
+[Learn at CAROBOTIX](https://learn.carobot.ca/) (https://learn.carobot.ca/)
 
 This website is an open-source learning tool and reference documentation for us here at [Canada Robotix](https://www.canadarobotix.com/) (CAROBOTIX INC.), our supporters, and everyone on the internet.
 
@@ -30,7 +30,7 @@ Create a fork of this repo then clone it onto your local machine.
 
 ```
 $ git clone https://github.com/{your username}/carobot.hithub.io
-$ cd carobot.hithub.io/
+$ cd carobot.github.io/
 ```
 Create a new branch off of the `main` branch for your change.
 ```

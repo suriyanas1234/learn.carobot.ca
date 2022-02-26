@@ -19,6 +19,11 @@
               "id": "kicad/kicad-basic",
               "path": "/docs/kicad/kicad-basic",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "products/glowing-heart",
+              "path": "/docs/products/glowing-heart",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "sidebars": {
