@@ -26,32 +26,37 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tinkerkit/tinkerkit-1",
+              "id": "tinkerkit/tinkerkit-lcd-0",
+              "path": "/tinkerkit/tinkerkit-lcd-tutorials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tinkerkit/tinkerkit-lcd-1",
               "path": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tinkerkit/tinkerkit-2",
+              "id": "tinkerkit/tinkerkit-lcd-2",
               "path": "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tinkerkit/tinkerkit-3",
+              "id": "tinkerkit/tinkerkit-lcd-3",
               "path": "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tinkerkit/tinkerkit-4",
+              "id": "tinkerkit/tinkerkit-lcd-4",
               "path": "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tinkerkit/tinkerkit-5",
+              "id": "tinkerkit/tinkerkit-lcd-5",
               "path": "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tinkerkit/tinkerkit-6",
+              "id": "tinkerkit/tinkerkit-lcd-6",
               "path": "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
               "sidebar": "tutorialSidebar"
             }
