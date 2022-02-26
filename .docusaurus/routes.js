@@ -99,18 +99,34 @@ export default [
     exact: true
   },
   {
+<<<<<<< Updated upstream
     path: '/docs',
     component: ComponentCreator('/docs','79d'),
+=======
+    path: '/',
+    component: ComponentCreator('/','deb'),
+    exact: true
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/','3c1'),
+>>>>>>> Stashed changes
     routes: [
       {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro','aed'),
+        path: '/intro',
+        component: ComponentCreator('/intro','283'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/kicad/kicad-basic',
-        component: ComponentCreator('/docs/kicad/kicad-basic','464'),
+        path: '/kicad/kicad-basic',
+        component: ComponentCreator('/kicad/kicad-basic','f53'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/tinkerkit/tinkerkit-1',
+        component: ComponentCreator('/tinkerkit/tinkerkit-1','c14'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -121,11 +137,6 @@ export default [
         'sidebar': "tutorialSidebar"
       }
     ]
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/','deb'),
-    exact: true
   },
   {
     path: '*',

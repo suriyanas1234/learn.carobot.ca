@@ -11,7 +11,7 @@
       {
         "type": "link",
         "label": "Tutorial Intro",
-        "href": "/docs/intro",
+        "href": "/intro",
         "docId": "intro"
       },
       {
@@ -23,22 +23,32 @@
           {
             "type": "link",
             "label": "Intro to KiCAD Basic Tutorial",
-            "href": "/docs/kicad/kicad-basic",
+            "href": "/kicad/kicad-basic",
             "docId": "kicad/kicad-basic"
           }
         ]
       },
       {
         "type": "category",
+<<<<<<< Updated upstream
         "label": "Products Usage Guide",
+=======
+        "label": "Tutorial - KiCAD",
+>>>>>>> Stashed changes
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
+<<<<<<< Updated upstream
             "label": "glowing-heart",
             "href": "/docs/products/glowing-heart",
             "docId": "products/glowing-heart"
+=======
+            "label": "Intro to KiCAD Basic Tutorial",
+            "href": "/tinkerkit/tinkerkit-1",
+            "docId": "tinkerkit/tinkerkit-1"
+>>>>>>> Stashed changes
           }
         ]
       }
@@ -57,10 +67,17 @@
       "description": "Installation",
       "sidebar": "tutorialSidebar"
     },
+<<<<<<< Updated upstream
     "products/glowing-heart": {
       "id": "products/glowing-heart",
       "title": "glowing-heart",
       "description": "Testing Import",
+=======
+    "tinkerkit/tinkerkit-1": {
+      "id": "tinkerkit/tinkerkit-1",
+      "title": "Intro to KiCAD Basic Tutorial",
+      "description": "Installation",
+>>>>>>> Stashed changes
       "sidebar": "tutorialSidebar"
     }
   }

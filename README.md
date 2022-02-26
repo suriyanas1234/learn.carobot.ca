@@ -1,22 +1,29 @@
 # Learn at CAROBOTIX Website
 
+<<<<<<< Updated upstream
 [Learn at CAROBOTIX](https://learn.carobot.ca/) (https://learn.carobot.ca/)
+=======
+[Learn at CAROBOT](https://learn.carobot.ca/) ([https://learn.carobot.ca/](https://learn.carobot.ca/)) is an open-source learning tool and reference documentation for us here at [Canada Robotix](https://www.canadarobotix.com/) (CAROBOTIX INC.) and [CAROBOT Learning and Research Organization](https://www.carobot.org), our supporters, and everyone on the internet.
+>>>>>>> Stashed changes
 
-This website is an open-source learning tool and reference documentation for us here at [Canada Robotix](https://www.canadarobotix.com/) (CAROBOTIX INC.), our supporters, and everyone on the internet.
-
-### Updating and Contributing
+## Updating and Contributing
 
 Thank you for your interest in helping us update and contribute to this website. We are happy to consider any contribution from our supporters.
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## Requirements
+
+- [Node.js](https://nodejs.org/en/download/) version >= 14 or above (which can be checked by running `node -v`). You can use [nvm](https://github.com/nvm-sh/nvm) for managing multiple Node versions on a single machine installed.
+  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+
+## Installation
 
 ```
 $ yarn
 ```
 
-### Local Development
+## Local Development
 
 ```
 $ yarn start
@@ -24,7 +31,7 @@ $ yarn start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Fork, Clone and Change
+## Fork, Clone and Change
 
 Create a fork of this repo then clone it onto your local machine.
 
@@ -38,7 +45,7 @@ $ git checkout -b {new branch name} main
 ```
 Make your changes and save.
 
-### Build
+## Build
 
 Once you are done with your changes, build the website.
 
@@ -48,7 +55,7 @@ $ yarn build
 
 This command generates static content into the `build` directory and can be served using any static content hosting service.
 
-### Submit Changes
+## Submit Changes
 
 Check to see which files have been modified.
 ```
@@ -68,7 +75,7 @@ $ git push origin {new branch name}
 ```
 Create a [Pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) and add a description about your changes for the maintainers to review.
 
-### Deployment
+## Deployment
 
 Using SSH:
 

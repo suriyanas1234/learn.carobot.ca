@@ -5,8 +5,13 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
+<<<<<<< Updated upstream
           "versionPath": "/docs",
           "tagsPath": "/docs/tags",
+=======
+          "versionPath": "/",
+          "tagsPath": "/tags",
+>>>>>>> Stashed changes
           "versionEditUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs",
           "versionEditUrlLocalized": "https://github.com/carobot/carobot.github.io/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
@@ -26,7 +31,11 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
+<<<<<<< Updated upstream
               "permalink": "/docs/intro",
+=======
+              "permalink": "/intro",
+>>>>>>> Stashed changes
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/intro.md",
               "tags": [],
               "version": "current",
@@ -37,7 +46,11 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Intro to KiCAD Basic Tutorial",
+<<<<<<< Updated upstream
                 "permalink": "/docs/kicad/kicad-basic"
+=======
+                "permalink": "/kicad/kicad-basic"
+>>>>>>> Stashed changes
               }
             },
             {
@@ -48,7 +61,11 @@
               "source": "@site/docs/kicad/kicad-basic.md",
               "sourceDirName": "kicad",
               "slug": "/kicad/kicad-basic",
+<<<<<<< Updated upstream
               "permalink": "/docs/kicad/kicad-basic",
+=======
+              "permalink": "/kicad/kicad-basic",
+>>>>>>> Stashed changes
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/kicad/kicad-basic.md",
               "tags": [],
               "version": "current",
@@ -59,6 +76,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Tutorial Intro",
+<<<<<<< Updated upstream
                 "permalink": "/docs/intro"
               },
               "next": {
@@ -81,11 +99,39 @@
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
+=======
+                "permalink": "/intro"
+              },
+              "next": {
+                "title": "Intro to KiCAD Basic Tutorial",
+                "permalink": "/tinkerkit/tinkerkit-1"
+              }
+            },
+            {
+              "unversionedId": "tinkerkit/tinkerkit-1",
+              "id": "tinkerkit/tinkerkit-1",
+              "title": "Intro to KiCAD Basic Tutorial",
+              "description": "Installation",
+              "source": "@site/docs/tinkerkit/tinkerkit-1.md",
+              "sourceDirName": "tinkerkit",
+              "slug": "/tinkerkit/tinkerkit-1",
+              "permalink": "/tinkerkit/tinkerkit-1",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-1.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+>>>>>>> Stashed changes
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Intro to KiCAD Basic Tutorial",
+<<<<<<< Updated upstream
                 "permalink": "/docs/kicad/kicad-basic"
+=======
+                "permalink": "/kicad/kicad-basic"
+>>>>>>> Stashed changes
               }
             }
           ],
@@ -109,13 +155,21 @@
               },
               {
                 "type": "category",
+<<<<<<< Updated upstream
                 "label": "Products Usage Guide",
+=======
+                "label": "Tutorial - KiCAD",
+>>>>>>> Stashed changes
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
+<<<<<<< Updated upstream
                     "id": "products/glowing-heart"
+=======
+                    "id": "tinkerkit/tinkerkit-1"
+>>>>>>> Stashed changes
                   }
                 ]
               }

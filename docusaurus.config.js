@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Learn at CAROBOTIX',
+  title: 'Learn at CAROBOT',
   tagline: 'Learning robotics is cool! We love robotics!',
   url: 'https://learn.carobot.ca/',
   baseUrl: '/',
@@ -27,6 +27,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/carobot/carobot.github.io/tree/main/',
+          routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
@@ -45,9 +46,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Learn at CAROBOTIX',
+        title: 'Learn at CAROBOT',
         logo: {
-          alt: 'Learn at CAROBOTIX',
+          alt: 'Learn at CAROBOT',
           src: 'img/Canada-Robotix-Robot-PNG.png',
         },
         items: [
@@ -113,7 +114,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CAROBOTIX INC. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CAROBOTIX INC. in collaboration with CAROBOT Learning and Research Organization. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

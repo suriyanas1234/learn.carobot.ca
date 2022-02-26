@@ -6,7 +6,7 @@
   "source": "@site/docs/kicad/kicad-basic.md",
   "sourceDirName": "kicad",
   "slug": "/kicad/kicad-basic",
-  "permalink": "/docs/kicad/kicad-basic",
+  "permalink": "/kicad/kicad-basic",
   "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/kicad/kicad-basic.md",
   "tags": [],
   "version": "current",
@@ -17,10 +17,18 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Tutorial Intro",
+<<<<<<< Updated upstream
     "permalink": "/docs/intro"
   },
   "next": {
     "title": "glowing-heart",
     "permalink": "/docs/products/glowing-heart"
+=======
+    "permalink": "/intro"
+  },
+  "next": {
+    "title": "Intro to KiCAD Basic Tutorial",
+    "permalink": "/tinkerkit/tinkerkit-1"
+>>>>>>> Stashed changes
   }
 }

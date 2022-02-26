@@ -125,6 +125,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
+<<<<<<< Updated upstream
   "/docs-79d": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
@@ -144,5 +145,26 @@
   "/-deb": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",
     "config": "config---5-e-9-4f3"
+=======
+  "/-deb": {
+    "component": "component---site-src-pages-index-jsc-4-f-f99",
+    "config": "config---5-e-9-4f3"
+  },
+  "/-3c1": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---935-fcf"
+  },
+  "/intro-283": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---intro-0-e-3-7b8"
+  },
+  "/kicad/kicad-basic-f53": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---kicad-kicad-basicedc-003"
+  },
+  "/tinkerkit/tinkerkit-1-c14": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tinkerkit-tinkerkit-1-f-00-d94"
+>>>>>>> Stashed changes
   }
 }

@@ -25,10 +25,17 @@ export default {
   'content---blog-mdx-blog-post-593-37b': [() => import(/* webpackChunkName: 'content---blog-mdx-blog-post-593-37b' */ '@site/blog/2021-08-01-mdx-blog-post.mdx'), '@site/blog/2021-08-01-mdx-blog-post.mdx', require.resolveWeak('@site/blog/2021-08-01-mdx-blog-post.mdx')],
   'content---blog-welcomed-9-f-ffb': [() => import(/* webpackChunkName: 'content---blog-welcomed-9-f-ffb' */ '@site/blog/2021-08-26-welcome/index.md'), '@site/blog/2021-08-26-welcome/index.md', require.resolveWeak('@site/blog/2021-08-26-welcome/index.md')],
   'content---blogf-4-f-cd7': [() => import(/* webpackChunkName: 'content---blogf-4-f-cd7' */ '@site/blog/2021-08-01-mdx-blog-post.mdx?truncated=true'), '@site/blog/2021-08-01-mdx-blog-post.mdx?truncated=true', require.resolveWeak('@site/blog/2021-08-01-mdx-blog-post.mdx?truncated=true')],
+<<<<<<< Updated upstream
   'content---docs-intro-0-e-3-be1': [() => import(/* webpackChunkName: 'content---docs-intro-0-e-3-be1' */ '@site/docs/intro.md'), '@site/docs/intro.md', require.resolveWeak('@site/docs/intro.md')],
   'content---docs-kicad-kicad-basicedc-38b': [() => import(/* webpackChunkName: 'content---docs-kicad-kicad-basicedc-38b' */ '@site/docs/kicad/kicad-basic.md'), '@site/docs/kicad/kicad-basic.md', require.resolveWeak('@site/docs/kicad/kicad-basic.md')],
   'content---docs-products-glowing-heart-89-a-488': [() => import(/* webpackChunkName: 'content---docs-products-glowing-heart-89-a-488' */ '@site/docs/products/2870-glowing-heart.mdx'), '@site/docs/products/2870-glowing-heart.mdx', require.resolveWeak('@site/docs/products/2870-glowing-heart.mdx')],
   'content---markdown-page-393-028': [() => import(/* webpackChunkName: 'content---markdown-page-393-028' */ '@site/src/pages/markdown-page.md'), '@site/src/pages/markdown-page.md', require.resolveWeak('@site/src/pages/markdown-page.md')],
+=======
+  'content---intro-0-e-3-7b8': [() => import(/* webpackChunkName: 'content---intro-0-e-3-7b8' */ '@site/docs/intro.md'), '@site/docs/intro.md', require.resolveWeak('@site/docs/intro.md')],
+  'content---kicad-kicad-basicedc-003': [() => import(/* webpackChunkName: 'content---kicad-kicad-basicedc-003' */ '@site/docs/kicad/kicad-basic.md'), '@site/docs/kicad/kicad-basic.md', require.resolveWeak('@site/docs/kicad/kicad-basic.md')],
+  'content---markdown-page-393-028': [() => import(/* webpackChunkName: 'content---markdown-page-393-028' */ '@site/src/pages/markdown-page.md'), '@site/src/pages/markdown-page.md', require.resolveWeak('@site/src/pages/markdown-page.md')],
+  'content---tinkerkit-tinkerkit-1-f-00-d94': [() => import(/* webpackChunkName: 'content---tinkerkit-tinkerkit-1-f-00-d94' */ '@site/docs/tinkerkit/tinkerkit-1.md'), '@site/docs/tinkerkit/tinkerkit-1.md', require.resolveWeak('@site/docs/tinkerkit/tinkerkit-1.md')],
+>>>>>>> Stashed changes
   'metadata---blog-tags-docusaurusa-80-728': [() => import(/* webpackChunkName: 'metadata---blog-tags-docusaurusa-80-728' */ '~blog/default/blog-tags-docusaurus-0e0.json'), '~blog/default/blog-tags-docusaurus-0e0.json', require.resolveWeak('~blog/default/blog-tags-docusaurus-0e0.json')],
   'metadata---blog-tags-facebook-031-c52': [() => import(/* webpackChunkName: 'metadata---blog-tags-facebook-031-c52' */ '~blog/default/blog-tags-facebook-038.json'), '~blog/default/blog-tags-facebook-038.json', require.resolveWeak('~blog/default/blog-tags-facebook-038.json')],
   'metadata---blog-tags-hello-30-a-bed': [() => import(/* webpackChunkName: 'metadata---blog-tags-hello-30-a-bed' */ '~blog/default/blog-tags-hello-039.json'), '~blog/default/blog-tags-hello-039.json', require.resolveWeak('~blog/default/blog-tags-hello-039.json')],
@@ -36,4 +43,8 @@ export default {
   'metadata---blogb-2-b-df1': [() => import(/* webpackChunkName: 'metadata---blogb-2-b-df1' */ '~blog/default/blog-c06.json'), '~blog/default/blog-c06.json', require.resolveWeak('~blog/default/blog-c06.json')],
   'sidebar---blog-814-8ac': [() => import(/* webpackChunkName: 'sidebar---blog-814-8ac' */ '~blog/default/blog-post-list-prop-default.json'), '~blog/default/blog-post-list-prop-default.json', require.resolveWeak('~blog/default/blog-post-list-prop-default.json')],
   'tags---blog-tagsa-70-da2': [() => import(/* webpackChunkName: 'tags---blog-tagsa-70-da2' */ '~blog/default/blog-tags-tags-4c2.json'), '~blog/default/blog-tags-tags-4c2.json', require.resolveWeak('~blog/default/blog-tags-tags-4c2.json')],
+<<<<<<< Updated upstream
   'versionMetadata---docs-935-398': [() => import(/* webpackChunkName: 'versionMetadata---docs-935-398' */ '~docs/default/version-current-metadata-prop-751.json'), '~docs/default/version-current-metadata-prop-751.json', require.resolveWeak('~docs/default/version-current-metadata-prop-751.json')],};
+=======
+  'versionMetadata---935-fcf': [() => import(/* webpackChunkName: 'versionMetadata---935-fcf' */ '~docs/default/version-current-metadata-prop-751.json'), '~docs/default/version-current-metadata-prop-751.json', require.resolveWeak('~docs/default/version-current-metadata-prop-751.json')],};
+>>>>>>> Stashed changes

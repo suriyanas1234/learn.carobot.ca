@@ -1,23 +1,28 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/docs/intro",
+              "path": "/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "kicad/kicad-basic",
-              "path": "/docs/kicad/kicad-basic",
+              "path": "/kicad/kicad-basic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tinkerkit/tinkerkit-1",
+              "path": "/tinkerkit/tinkerkit-1",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -29,7 +34,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
+                "path": "/intro",
                 "label": "intro"
               }
             }

@@ -4,7 +4,7 @@ Your edits in this file will be overwritten in the next build!
 Modify the docusaurus.config.js file at your site's root instead.
 */
 export default {
-  "title": "Learn at CAROBOTIX",
+  "title": "Learn at CAROBOT",
   "tagline": "Learning robotics is cool! We love robotics!",
   "url": "https://learn.carobot.ca/",
   "baseUrl": "/",
@@ -21,7 +21,8 @@ export default {
       {
         "docs": {
           "sidebarPath": "/home/jacky/projects/carobot.github.io/sidebars.js",
-          "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/"
+          "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/",
+          "routeBasePath": "/"
         },
         "blog": {
           "showReadingTime": true,
@@ -35,9 +36,9 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Learn at CAROBOTIX",
+      "title": "Learn at CAROBOT",
       "logo": {
-        "alt": "Learn at CAROBOTIX",
+        "alt": "Learn at CAROBOT",
         "src": "img/Canada-Robotix-Robot-PNG.png"
       },
       "items": [
@@ -73,7 +74,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 CAROBOTIX INC. Built with Docusaurus."
+      "copyright": "Copyright © 2022 CAROBOTIX INC. in collaboration with CAROBOT Learning and Research Organization. Built with Docusaurus."
     },
     "prism": {
       "theme": {
