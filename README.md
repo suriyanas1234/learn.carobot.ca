@@ -13,6 +13,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 - [Node.js](https://nodejs.org/en/download/) version >= 14 or above (which can be checked by running `node -v`). You can use [nvm](https://github.com/nvm-sh/nvm) for managing multiple Node versions on a single machine installed.
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 - [yarn](https://yarnpkg.com/) if yarn is not already install with Node.js (which can be checked by running `yarn -v`)
+- We also recommend using [Visual Studio Code](https://code.visualstudio.com/) as your local IDE
 
 ## Fork, Clone and Change
 
@@ -77,6 +78,8 @@ $ git push origin {new branch name}
 Create a [Pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) and add a description about your changes for the maintainers to review.
 
 ## Deployment
+
+> For Maintainer Only
 
 Using SSH:
 
