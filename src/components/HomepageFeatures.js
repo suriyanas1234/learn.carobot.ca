@@ -29,7 +29,7 @@ const FeatureList = [
   },
   {
     title: 'CREATE',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('../../static/img/create.svg').default,
     description: (
       <>
         The skys the limit! You can design and build your own robotics project!!
