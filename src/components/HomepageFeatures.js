@@ -23,7 +23,7 @@ const FeatureList = [
     Svg: buildImg, // require('../../static/img/build.svg').default,
     description: (
       <>
-        Choose the <em>Guide tab</em>, select a guide, and follow with step by step 
+        Choose the <code>Guide</code> tab, select a guide, and follow with step by step 
         instructions on how to make a cool robotics project!
       </>
     ),
