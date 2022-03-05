@@ -3,8 +3,6 @@ title: Infrared Sensor Module (TCRT5000) Guide
 sidebar_position: 3
 ---
 
-Posted by **Kelly M** on **Nov 27, 2021**
-
 The Infrared Sensor Module (TCRT5000) is a Line Tracking Module. It is an infrared distance module most used for object and obstacle detection, and robot applications like a line following robot car, product line decoder and much more.
 
 ![](/img/docs/product_guide/2083_01.png)

@@ -129,7 +129,7 @@
     "component": "component---site-src-pages-index-jsc-4-f-f99",
     "config": "config---5-e-9-4f3"
   },
-  "/-ebc": {
+  "/-919": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -144,6 +144,22 @@
   "/product_guide/glowing-heart-b2f": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---product-guide-glowing-hearta-3-b-db7"
+  },
+  "/product_guide/infrared-sensor-module-b03": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---product-guide-infrared-sensor-moduleef-9-4fa"
+  },
+  "/product_guide/motor-shield-v3-43e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---product-guide-motor-shield-v-3058-990"
+  },
+  "/product_guide/tip-cleaning-paste-d8e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---product-guide-tip-cleaning-paste-9-ec-cd4"
+  },
+  "/product_guide/ultrasonic-ranging-sensor-477": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---product-guide-ultrasonic-ranging-sensorcfe-df3"
   },
   "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide-2d9": {
     "component": "component---theme-doc-item-178-a40",
@@ -171,6 +187,6 @@
   },
   "/tinkerkit/tinkerkit-lcd-tutorials-398": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---tinkerkit-tinkerkit-lcd-tutorial-1-ff-2a9"
+    "content": "content---tinkerkit-tinkerkit-lcd-tutorials-1-ff-804"
   }
 }

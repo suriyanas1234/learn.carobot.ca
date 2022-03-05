@@ -87,6 +87,114 @@
               "previous": {
                 "title": "TinkerKit LCD - Tutorial 06 - TWI",
                 "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires"
+              },
+              "next": {
+                "title": "Hakko FS-100 Tip Cleaning Paste Guide",
+                "permalink": "/product_guide/tip-cleaning-paste"
+              }
+            },
+            {
+              "unversionedId": "product_guide/infrared-sensor-module",
+              "id": "product_guide/infrared-sensor-module",
+              "title": "Infrared Sensor Module (TCRT5000) Guide",
+              "description": "The Infrared Sensor Module (TCRT5000) is a Line Tracking Module. It is an infrared distance module most used for object and obstacle detection, and robot applications like a line following robot car, product line decoder and much more.",
+              "source": "@site/docs/product_guide/2083-infrared-sensor-module.md",
+              "sourceDirName": "product_guide",
+              "slug": "/product_guide/infrared-sensor-module",
+              "permalink": "/product_guide/infrared-sensor-module",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/product_guide/2083-infrared-sensor-module.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Infrared Sensor Module (TCRT5000) Guide",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Hakko FS-100 Tip Cleaning Paste Guide",
+                "permalink": "/product_guide/tip-cleaning-paste"
+              },
+              "next": {
+                "title": "CAROBOT Motor Shield v3 Guide",
+                "permalink": "/product_guide/motor-shield-v3"
+              }
+            },
+            {
+              "unversionedId": "product_guide/motor-shield-v3",
+              "id": "product_guide/motor-shield-v3",
+              "title": "CAROBOT Motor Shield v3 Guide",
+              "description": "The CAROBOT Motor Shield allows you to easily control motor direction and speed using an Arduino. By allowing you to simply address Arduino pins, it makes it very simple to incorporate a motor into your project. It also allows you to be able to power a motor with a separate power supply of up to 12v. For all of these reasons, this motor shield is a popular device that is commonly used in projects, such as robot cars, and much more.",
+              "source": "@site/docs/product_guide/2337-motor-shield-v3.md",
+              "sourceDirName": "product_guide",
+              "slug": "/product_guide/motor-shield-v3",
+              "permalink": "/product_guide/motor-shield-v3",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/product_guide/2337-motor-shield-v3.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "CAROBOT Motor Shield v3 Guide",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Infrared Sensor Module (TCRT5000) Guide",
+                "permalink": "/product_guide/infrared-sensor-module"
+              },
+              "next": {
+                "title": "HC-SR04 Ultrasonic Sensor Guide",
+                "permalink": "/product_guide/ultrasonic-ranging-sensor"
+              }
+            },
+            {
+              "unversionedId": "product_guide/tip-cleaning-paste",
+              "id": "product_guide/tip-cleaning-paste",
+              "title": "Hakko FS-100 Tip Cleaning Paste Guide",
+              "description": "Tip Cleaning procedure using FS-100 Tip Cleaning Paste:",
+              "source": "@site/docs/product_guide/2816-tip-cleaning-paste.md",
+              "sourceDirName": "product_guide",
+              "slug": "/product_guide/tip-cleaning-paste",
+              "permalink": "/product_guide/tip-cleaning-paste",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/product_guide/2816-tip-cleaning-paste.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Hakko FS-100 Tip Cleaning Paste Guide",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Glowing Heart LED Kit Guide",
+                "permalink": "/product_guide/glowing-heart"
+              },
+              "next": {
+                "title": "Infrared Sensor Module (TCRT5000) Guide",
+                "permalink": "/product_guide/infrared-sensor-module"
+              }
+            },
+            {
+              "unversionedId": "product_guide/ultrasonic-ranging-sensor",
+              "id": "product_guide/ultrasonic-ranging-sensor",
+              "title": "HC-SR04 Ultrasonic Sensor Guide",
+              "description": "The HC-SR04 ultrasonic sensor module is a very popular module for measuring distance or any other purposes. It emits an ultrasound signal at about 40 000 Hz which travels through the air and if there is an object or obstacle along its path, the sound will bounce back to the module.",
+              "source": "@site/docs/product_guide/1072-ultrasonic-ranging-sensor.md",
+              "sourceDirName": "product_guide",
+              "slug": "/product_guide/ultrasonic-ranging-sensor",
+              "permalink": "/product_guide/ultrasonic-ranging-sensor",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/product_guide/1072-ultrasonic-ranging-sensor.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "HC-SR04 Ultrasonic Sensor Guide",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CAROBOT Motor Shield v3 Guide",
+                "permalink": "/product_guide/motor-shield-v3"
               }
             },
             {
@@ -349,6 +457,22 @@
                   {
                     "type": "doc",
                     "id": "product_guide/glowing-heart"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "product_guide/tip-cleaning-paste"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "product_guide/infrared-sensor-module"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "product_guide/motor-shield-v3"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "product_guide/ultrasonic-ranging-sensor"
                   }
                 ]
               }

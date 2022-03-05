@@ -3,8 +3,6 @@ title: HC-SR04 Ultrasonic Sensor Guide
 sidebar_position: 5
 ---
 
-Posted by **Kelly M** on **Nov 27, 2021**
-
 The HC-SR04 ultrasonic sensor module is a very popular module for measuring distance or any other purposes. It emits an ultrasound signal at about 40 000 Hz which travels through the air and if there is an object or obstacle along its path, the sound will bounce back to the module.
 
 ![](/img/docs/product_guide/1072_01.jpg)

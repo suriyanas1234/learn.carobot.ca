@@ -105,7 +105,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','ebc'),
+    component: ComponentCreator('/','919'),
     routes: [
       {
         path: '/intro',
@@ -122,6 +122,30 @@ export default [
       {
         path: '/product_guide/glowing-heart',
         component: ComponentCreator('/product_guide/glowing-heart','b2f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/product_guide/infrared-sensor-module',
+        component: ComponentCreator('/product_guide/infrared-sensor-module','b03'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/product_guide/motor-shield-v3',
+        component: ComponentCreator('/product_guide/motor-shield-v3','43e'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/product_guide/tip-cleaning-paste',
+        component: ComponentCreator('/product_guide/tip-cleaning-paste','d8e'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/product_guide/ultrasonic-ranging-sensor',
+        component: ComponentCreator('/product_guide/ultrasonic-ranging-sensor','477'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

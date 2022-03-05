@@ -3,8 +3,6 @@ title: CAROBOT Motor Shield v3 Guide
 sidebar_position: 4
 ---
 
-Posted by **Kelly M** on **Nov 27, 2021**
-
 The CAROBOT Motor Shield allows you to easily control motor direction and speed using an Arduino. By allowing you to simply address Arduino pins, it makes it very simple to incorporate a motor into your project. It also allows you to be able to power a motor with a separate power supply of up to 12v. For all of these reasons, this motor shield is a popular device that is commonly used in projects, such as robot cars, and much more. 
 
 ![](/img/docs/product_guide/2337_01.png)

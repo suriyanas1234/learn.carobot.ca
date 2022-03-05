@@ -26,6 +26,26 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "product_guide/infrared-sensor-module",
+              "path": "/product_guide/infrared-sensor-module",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product_guide/motor-shield-v3",
+              "path": "/product_guide/motor-shield-v3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product_guide/tip-cleaning-paste",
+              "path": "/product_guide/tip-cleaning-paste",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product_guide/ultrasonic-ranging-sensor",
+              "path": "/product_guide/ultrasonic-ranging-sensor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tinkerkit/tinkerkit-lcd-0",
               "path": "/tinkerkit/tinkerkit-lcd-tutorials",
               "sidebar": "tutorialSidebar"

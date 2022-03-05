@@ -3,15 +3,12 @@ title: Hakko FS-100 Tip Cleaning Paste Guide
 sidebar_position: 2
 ---
  
-Posted by **Jack L** on **Jan 14, 2022**
  
 **Tip Cleaning procedure using** [FS-100 Tip Cleaning Paste](https://www.canadarobotix.com/products/2816):
- 
-Oxidized tip:
-![](/img/docs/product_guide/2816_01.jpg)
- 
-Re-tinned:
-![](/img/docs/product_guide/2816_02.jpg)
+
+|BEFORE: Oxidized tip|AFTER: Re-tinned tip|
+|---|---|
+|![](/img/docs/product_guide/2816_01.jpg) |![](/img/docs/product_guide/2816_02.jpg) |
  
 For optimum performance, use the [FS-100 paste](https://www.canadarobotix.com/products/2816) in conjunction with the Hakko FT-700 tip polisher for increased oxide removal.
  
