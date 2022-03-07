@@ -5,8 +5,8 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/",
-          "tagsPath": "/tags",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
           "versionEditUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs",
           "versionEditUrlLocalized": "https://github.com/carobot/carobot.github.io/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
@@ -14,10 +14,36 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/jacky/projects/carobot.github.io/sidebars.js",
-          "contentPath": "/home/jacky/projects/carobot.github.io/docs",
-          "contentPathLocalized": "/home/jacky/projects/carobot.github.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/elsaahmed/GitHub/sidebars.js",
+          "contentPath": "/Users/elsaahmed/GitHub/docs",
+          "contentPathLocalized": "/Users/elsaahmed/GitHub/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
+            {
+              "unversionedId": "guide",
+              "id": "guide",
+              "title": "Guide Intro",
+              "description": "Nothing here right now. Soon to be updated.",
+              "source": "@site/docs/guide.md",
+              "sourceDirName": ".",
+              "slug": "/guide",
+              "permalink": "/docs/guide",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/guide.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "TinkerKit LCD - Tutorial 06 - TWI",
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires"
+              },
+              "next": {
+                "title": "Glowing Heart LED Kit Guide",
+                "permalink": "/docs/product_guide/glowing-heart"
+              }
+            },
             {
               "unversionedId": "intro",
               "id": "intro",
@@ -26,7 +52,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/intro",
+              "permalink": "/docs/intro",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/intro.md",
               "tags": [],
               "version": "current",
@@ -37,7 +63,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Intro to KiCAD Basic Tutorial",
-                "permalink": "/kicad/kicad-basic"
+                "permalink": "/docs/kicad/kicad-basic"
               }
             },
             {
@@ -48,7 +74,7 @@
               "source": "@site/docs/kicad/kicad-basic.md",
               "sourceDirName": "kicad",
               "slug": "/kicad/kicad-basic",
-              "permalink": "/kicad/kicad-basic",
+              "permalink": "/docs/kicad/kicad-basic",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/kicad/kicad-basic.md",
               "tags": [],
               "version": "current",
@@ -59,11 +85,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Tutorial Intro",
-                "permalink": "/intro"
+                "permalink": "/docs/intro"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorials",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorials"
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorials"
               }
             },
             {
@@ -74,7 +100,7 @@
               "source": "@site/docs/product_guide/2870-glowing-heart.md",
               "sourceDirName": "product_guide",
               "slug": "/product_guide/glowing-heart",
-              "permalink": "/product_guide/glowing-heart",
+              "permalink": "/docs/product_guide/glowing-heart",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/product_guide/2870-glowing-heart.md",
               "tags": [],
               "version": "current",
@@ -85,8 +111,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "TinkerKit LCD - Tutorial 06 - TWI",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires"
+                "title": "Guide Intro",
+                "permalink": "/docs/guide"
               }
             },
             {
@@ -97,7 +123,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-0.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorials",
-              "permalink": "/tinkerkit/tinkerkit-lcd-tutorials",
+              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorials",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-0.md",
               "tags": [],
               "version": "current",
@@ -110,11 +136,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Intro to KiCAD Basic Tutorial",
-                "permalink": "/kicad/kicad-basic"
+                "permalink": "/docs/kicad/kicad-basic"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorial 01 - Windows Installation Guide",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide"
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide"
               }
             },
             {
@@ -125,7 +151,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-1.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
-              "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
+              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-1.md",
               "tags": [],
               "version": "current",
@@ -138,11 +164,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "TinkerKit LCD - Tutorials",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorials"
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorials"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorial 02 - Introduction to LCD",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd"
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd"
               }
             },
             {
@@ -153,7 +179,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-2.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
-              "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
+              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-2.md",
               "tags": [],
               "version": "current",
@@ -166,11 +192,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "TinkerKit LCD - Tutorial 01 - Windows Installation Guide",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide"
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorial 03 - LCD Serial",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial"
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial"
               }
             },
             {
@@ -181,7 +207,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-3.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
-              "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
+              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-3.md",
               "tags": [],
               "version": "current",
@@ -194,11 +220,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "TinkerKit LCD - Tutorial 02 - Introduction to LCD",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd"
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorial 04 - LCD Local (No Arduino)",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino"
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino"
               }
             },
             {
@@ -209,7 +235,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-4.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
-              "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
+              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-4.md",
               "tags": [],
               "version": "current",
@@ -222,11 +248,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "TinkerKit LCD - Tutorial 03 - LCD Serial",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial"
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorial 05 - Arduino & 2 Wires",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires"
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires"
               }
             },
             {
@@ -237,7 +263,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-5.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
-              "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
+              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-5.md",
               "tags": [],
               "version": "current",
@@ -250,11 +276,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "TinkerKit LCD - Tutorial 04 - LCD Local (No Arduino)",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino"
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorial 06 - TWI",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires"
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires"
               }
             },
             {
@@ -265,7 +291,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-6.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
-              "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
+              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-6.md",
               "tags": [],
               "version": "current",
@@ -278,11 +304,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "TinkerKit LCD - Tutorial 05 - Arduino & 2 Wires",
-                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires"
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires"
               },
               "next": {
-                "title": "Glowing Heart LED Kit Guide",
-                "permalink": "/product_guide/glowing-heart"
+                "title": "Guide Intro",
+                "permalink": "/docs/guide"
               }
             }
           ],
@@ -341,6 +367,10 @@
                 ]
               },
               {
+                "type": "doc",
+                "id": "guide"
+              },
+              {
                 "type": "category",
                 "label": "Product Usage Guide",
                 "collapsible": true,
@@ -358,6 +388,183 @@
           "categoryGeneratedIndices": []
         }
       ]
+    },
+    "guide": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/guide",
+          "tagsPath": "/guide/tags",
+          "versionEditUrl": "https://github.com/carobot/carobot.github.io/tree/main/guide",
+          "versionEditUrlLocalized": "https://github.com/carobot/carobot.github.io/tree/main/i18n/en/docusaurus-plugin-content-docs-guide/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/elsaahmed/GitHub/sidebars.js",
+          "contentPath": "/Users/elsaahmed/GitHub/guide",
+          "contentPathLocalized": "/Users/elsaahmed/GitHub/i18n/en/docusaurus-plugin-content-docs-guide/current",
+          "docs": [
+            {
+              "unversionedId": "guide",
+              "id": "guide",
+              "title": "Guide Intro",
+              "description": "Nothing here right now. Soon to be updated.",
+              "source": "@site/guide/guide.md",
+              "sourceDirName": ".",
+              "slug": "/guide",
+              "permalink": "/guide/guide",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/guide/guide.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Glowing Heart LED Kit Guide",
+                "permalink": "/guide/product_guide/glowing-heart"
+              }
+            },
+            {
+              "unversionedId": "product_guide/glowing-heart",
+              "id": "product_guide/glowing-heart",
+              "title": "Glowing Heart LED Kit Guide",
+              "description": "Glowing Heart LED Kit",
+              "source": "@site/guide/product_guide/2870-glowing-heart.md",
+              "sourceDirName": "product_guide",
+              "slug": "/product_guide/glowing-heart",
+              "permalink": "/guide/product_guide/glowing-heart",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/guide/product_guide/2870-glowing-heart.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Glowing Heart LED Kit Guide",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Guide Intro",
+                "permalink": "/guide/guide"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "guide"
+              },
+              {
+                "type": "category",
+                "label": "Product Usage Guide",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "product_guide/glowing-heart"
+                  }
+                ]
+              }
+            ]
+          },
+          "mainDocId": "guide",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    },
+    "resources": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/resources",
+          "tagsPath": "/resources/tags",
+          "versionEditUrl": "https://github.com/carobot/carobot.github.io/tree/main/resources",
+          "versionEditUrlLocalized": "https://github.com/carobot/carobot.github.io/tree/main/i18n/en/docusaurus-plugin-content-docs-resources/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/elsaahmed/GitHub/sidebars.js",
+          "contentPath": "/Users/elsaahmed/GitHub/resources",
+          "contentPathLocalized": "/Users/elsaahmed/GitHub/i18n/en/docusaurus-plugin-content-docs-resources/current",
+          "docs": [
+            {
+              "unversionedId": "kicad/kicad-basic",
+              "id": "kicad/kicad-basic",
+              "title": "Intro to KiCAD Basic Tutorial",
+              "description": "Installation",
+              "source": "@site/resources/kicad/kicad-basic.md",
+              "sourceDirName": "kicad",
+              "slug": "/kicad/kicad-basic",
+              "permalink": "/resources/kicad/kicad-basic",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/resources/kicad/kicad-basic.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Resources Intro",
+                "permalink": "/resources/ref"
+              }
+            },
+            {
+              "unversionedId": "ref",
+              "id": "ref",
+              "title": "Resources Intro",
+              "description": "Nothing here right now. Soon to be updated.",
+              "source": "@site/resources/ref.md",
+              "sourceDirName": ".",
+              "slug": "/ref",
+              "permalink": "/resources/ref",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/resources/ref.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Intro to KiCAD Basic Tutorial",
+                "permalink": "/resources/kicad/kicad-basic"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "ref"
+              },
+              {
+                "type": "category",
+                "label": "Tutorial - KiCAD",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "kicad/kicad-basic"
+                  }
+                ]
+              }
+            ]
+          },
+          "mainDocId": "ref",
+          "categoryGeneratedIndices": []
+        }
+      ]
     }
   },
   "docusaurus-plugin-content-blog": {
@@ -368,7 +575,6 @@
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/blog/2021-08-26-welcome/index.md",
             "source": "@site/blog/2021-08-26-welcome/index.md",
             "title": "Welcome",
             "description": "Docusaurus blogging features are powered by the blog plugin.",
@@ -430,7 +636,6 @@
           "id": "mdx-blog-post",
           "metadata": {
             "permalink": "/blog/mdx-blog-post",
-            "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/blog/2021-08-01-mdx-blog-post.mdx",
             "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
             "title": "MDX Blog Post",
             "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
@@ -478,7 +683,6 @@
           "id": "long-blog-post",
           "metadata": {
             "permalink": "/blog/long-blog-post",
-            "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/blog/2019-05-29-long-blog-post.md",
             "source": "@site/blog/2019-05-29-long-blog-post.md",
             "title": "Long Blog Post",
             "description": "This is the summary of a very long blog post,",
@@ -529,7 +733,6 @@
           "id": "first-blog-post",
           "metadata": {
             "permalink": "/blog/first-blog-post",
-            "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/blog/2019-05-28-first-blog-post.md",
             "source": "@site/blog/2019-05-28-first-blog-post.md",
             "title": "First Blog Post",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",

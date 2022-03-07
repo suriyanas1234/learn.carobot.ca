@@ -18,29 +18,71 @@ const config = {
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
+  // presets: [
+  //   [
+  //     'classic',
+  //     /** @type {import('@docusaurus/preset-classic').Options} */
+  //     ({
+  //       docs: {
+  //         sidebarPath: require.resolve('./sidebars.js'),
+  //         // Please change this to your repo.
+  //         editUrl: 'https://github.com/carobot/carobot.github.io/tree/main/',
+  //         routeBasePath: '/',
+  //       },
+  //       blog: {
+  //         showReadingTime: true,
+  //         // Please change this to your repo.
+  //         editUrl:
+  //           'https://github.com/carobot/carobot.github.io/tree/main/',
+  //       },
+  //       theme: {
+  //         customCss: require.resolve('./src/css/custom.css'),
+  //       },
+  //     }),
+  //   ],
+  // ],
+
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      '@docusaurus/preset-classic',
+      {
         docs: {
+          routeBasePath: 'docs',
+          path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+          lastVersion: 'current',
+          onlyIncludeVersions: ['current'],
           editUrl: 'https://github.com/carobot/carobot.github.io/tree/main/',
-          routeBasePath: '/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/carobot/carobot.github.io/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'guide',
+        path: 'guide',
+        routeBasePath: 'guide',
+        sidebarPath: require.resolve('./sidebars.js'),
+        editUrl: 'https://github.com/carobot/carobot.github.io/tree/main/',
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'resources',
+        path: 'resources',
+        routeBasePath: 'resources',
+        sidebarPath: require.resolve('./sidebars.js'),
+        editUrl: 'https://github.com/carobot/carobot.github.io/tree/main/',
+      }, 
+    ],
+],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -57,13 +99,21 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Tutorial',
-          },
+          },          
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
+            to: '/guide/guide',    // ./docs-api/Intro.md
             label: 'Guide',
+            position: 'left',
+            activeBaseRegex: `/guide/`,
           },
+
+          // {
+          //   to: '/resources/ref',    // ./docs-api/Intro.md            
+          //   label: 'Resources',
+          //   position: 'left',
+          //   activeBaseRegex: `/resources/`,
+          // },
+
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://www.canadarobotix.com',
@@ -85,7 +135,11 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/intro',
+                to: 'docs/intro',
+              },
+              {
+                label: 'Guide',
+                to: 'guide/guide',
               },
             ],
           },

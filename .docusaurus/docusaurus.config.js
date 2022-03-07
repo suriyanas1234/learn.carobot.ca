@@ -17,20 +17,43 @@ export default {
   "trailingSlash": false,
   "presets": [
     [
-      "classic",
+      "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/home/jacky/projects/carobot.github.io/sidebars.js",
-          "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/",
-          "routeBasePath": "/"
-        },
-        "blog": {
-          "showReadingTime": true,
+          "routeBasePath": "docs",
+          "path": "docs",
+          "sidebarPath": "/Users/elsaahmed/GitHub/sidebars.js",
+          "lastVersion": "current",
+          "onlyIncludeVersions": [
+            "current"
+          ],
           "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/"
         },
         "theme": {
-          "customCss": "/home/jacky/projects/carobot.github.io/src/css/custom.css"
+          "customCss": "/Users/elsaahmed/GitHub/src/css/custom.css"
         }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "guide",
+        "path": "guide",
+        "routeBasePath": "guide",
+        "sidebarPath": "/Users/elsaahmed/GitHub/sidebars.js",
+        "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/"
+      }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "resources",
+        "path": "resources",
+        "routeBasePath": "resources",
+        "sidebarPath": "/Users/elsaahmed/GitHub/sidebars.js",
+        "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/"
       }
     ]
   ],
@@ -47,6 +70,12 @@ export default {
           "docId": "intro",
           "position": "left",
           "label": "Tutorial"
+        },
+        {
+          "to": "/guide/guide",
+          "label": "Guide",
+          "position": "left",
+          "activeBaseRegex": "/guide/"
         },
         {
           "href": "https://www.canadarobotix.com",
@@ -69,7 +98,11 @@ export default {
           "items": [
             {
               "label": "Tutorial",
-              "to": "/intro"
+              "to": "docs/intro"
+            },
+            {
+              "label": "Guide",
+              "to": "guide/guide"
             }
           ]
         }
@@ -305,7 +338,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "titleDelimiter": "|",
   "noIndex": false
