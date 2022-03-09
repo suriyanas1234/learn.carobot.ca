@@ -78,6 +78,12 @@ export default {
           "activeBaseRegex": "/guide/"
         },
         {
+          "to": "/resources/ref",
+          "label": "Resources",
+          "position": "left",
+          "activeBaseRegex": "/resources/"
+        },
+        {
           "href": "https://www.canadarobotix.com",
           "label": "Canada Robotix",
           "position": "right"
