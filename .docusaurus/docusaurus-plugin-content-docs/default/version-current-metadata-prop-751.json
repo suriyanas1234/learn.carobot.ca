@@ -26,7 +26,8 @@
             "href": "/docs/kicad/kicad-basic",
             "docId": "kicad/kicad-basic"
           }
-        ]
+        ],
+        "href": "/docs/kicad/"
       },
       {
         "type": "category",
@@ -76,7 +77,8 @@
             "href": "/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
             "docId": "tinkerkit/tinkerkit-lcd-6"
           }
-        ]
+        ],
+        "href": "/docs/tinkerkit/"
       },
       {
         "type": "link",
@@ -96,7 +98,8 @@
             "href": "/docs/product_guide/glowing-heart",
             "docId": "product_guide/glowing-heart"
           }
-        ]
+        ],
+        "href": "/docs/product_guide/"
       }
     ]
   },
@@ -113,6 +116,12 @@
       "description": "Nothing here right now.",
       "sidebar": "tutorialSidebar"
     },
+    "kicad/kicad": {
+      "id": "kicad/kicad",
+      "title": "Intro to Folder Kicad",
+      "description": "hello hello this is a markdown file for the folder under intro of Kicad.",
+      "sidebar": "tutorialSidebar"
+    },
     "kicad/kicad-basic": {
       "id": "kicad/kicad-basic",
       "title": "Intro to KiCAD Basic Tutorial",
@@ -123,6 +132,18 @@
       "id": "product_guide/glowing-heart",
       "title": "Glowing Heart LED Kit Guide",
       "description": "Glowing Heart LED Kit",
+      "sidebar": "tutorialSidebar"
+    },
+    "product_guide/product_guide": {
+      "id": "product_guide/product_guide",
+      "title": "Product Guide Folder Intro",
+      "description": "hello hello this is a markdown file for the folder under intro of prodcut guide.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tinkerkit/tinkerkit": {
+      "id": "tinkerkit/tinkerkit",
+      "title": "Tinker Kit Folder Intro",
+      "description": "hello hello this is a markdown file for the folder under intro of tinker kit.",
       "sidebar": "tutorialSidebar"
     },
     "tinkerkit/tinkerkit-lcd-0": {

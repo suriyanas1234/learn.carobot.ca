@@ -40,8 +40,8 @@
                 "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires"
               },
               "next": {
-                "title": "Glowing Heart LED Kit Guide",
-                "permalink": "/docs/product_guide/glowing-heart"
+                "title": "Product Guide Folder Intro",
+                "permalink": "/docs/product_guide/"
               }
             },
             {
@@ -61,6 +61,31 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Intro to Folder Kicad",
+                "permalink": "/docs/kicad/"
+              }
+            },
+            {
+              "unversionedId": "kicad/kicad",
+              "id": "kicad/kicad",
+              "title": "Intro to Folder Kicad",
+              "description": "hello hello this is a markdown file for the folder under intro of Kicad.",
+              "source": "@site/docs/kicad/kicad.md",
+              "sourceDirName": "kicad",
+              "slug": "/kicad/",
+              "permalink": "/docs/kicad/",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/kicad/kicad.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Intro to Folder Kicad"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial Intro",
+                "permalink": "/docs/intro"
+              },
               "next": {
                 "title": "Intro to KiCAD Basic Tutorial",
                 "permalink": "/docs/kicad/kicad-basic"
@@ -84,12 +109,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
+                "title": "Intro to Folder Kicad",
+                "permalink": "/docs/kicad/"
               },
               "next": {
-                "title": "TinkerKit LCD - Tutorials",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorials"
+                "title": "Tinker Kit Folder Intro",
+                "permalink": "/docs/tinkerkit/"
               }
             },
             {
@@ -111,8 +136,58 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
+                "title": "Product Guide Folder Intro",
+                "permalink": "/docs/product_guide/"
+              }
+            },
+            {
+              "unversionedId": "product_guide/product_guide",
+              "id": "product_guide/product_guide",
+              "title": "Product Guide Folder Intro",
+              "description": "hello hello this is a markdown file for the folder under intro of prodcut guide.",
+              "source": "@site/docs/product_guide/product_guide.md",
+              "sourceDirName": "product_guide",
+              "slug": "/product_guide/",
+              "permalink": "/docs/product_guide/",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/product_guide/product_guide.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Product Guide Folder Intro"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
                 "title": "Guide Intro",
                 "permalink": "/docs/guide"
+              },
+              "next": {
+                "title": "Glowing Heart LED Kit Guide",
+                "permalink": "/docs/product_guide/glowing-heart"
+              }
+            },
+            {
+              "unversionedId": "tinkerkit/tinkerkit",
+              "id": "tinkerkit/tinkerkit",
+              "title": "Tinker Kit Folder Intro",
+              "description": "hello hello this is a markdown file for the folder under intro of tinker kit.",
+              "source": "@site/docs/tinkerkit/tinkerkit.md",
+              "sourceDirName": "tinkerkit",
+              "slug": "/tinkerkit/",
+              "permalink": "/docs/tinkerkit/",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Tinker Kit Folder Intro"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Intro to KiCAD Basic Tutorial",
+                "permalink": "/docs/kicad/kicad-basic"
+              },
+              "next": {
+                "title": "TinkerKit LCD - Tutorials",
+                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorials"
               }
             },
             {
@@ -135,8 +210,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Intro to KiCAD Basic Tutorial",
-                "permalink": "/docs/kicad/kicad-basic"
+                "title": "Tinker Kit Folder Intro",
+                "permalink": "/docs/tinkerkit/"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorial 01 - Windows Installation Guide",
@@ -328,7 +403,11 @@
                     "type": "doc",
                     "id": "kicad/kicad-basic"
                   }
-                ]
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "kicad/kicad"
+                }
               },
               {
                 "type": "category",
@@ -364,7 +443,11 @@
                     "type": "doc",
                     "id": "tinkerkit/tinkerkit-lcd-6"
                   }
-                ]
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "tinkerkit/tinkerkit"
+                }
               },
               {
                 "type": "doc",
@@ -380,7 +463,11 @@
                     "type": "doc",
                     "id": "product_guide/glowing-heart"
                   }
-                ]
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "product_guide/product_guide"
+                }
               }
             ]
           },
@@ -425,8 +512,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Glowing Heart LED Kit Guide",
-                "permalink": "/guide/product_guide/glowing-heart"
+                "title": "Product Guide Folder Intro",
+                "permalink": "/guide/product_guide/"
               }
             },
             {
@@ -448,8 +535,33 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
+                "title": "Product Guide Folder Intro",
+                "permalink": "/guide/product_guide/"
+              }
+            },
+            {
+              "unversionedId": "product_guide/product_guide",
+              "id": "product_guide/product_guide",
+              "title": "Product Guide Folder Intro",
+              "description": "hello hello this is a markdown file for the folder under intro of prodcut guide.",
+              "source": "@site/guide/product_guide/product_guide.md",
+              "sourceDirName": "product_guide",
+              "slug": "/product_guide/",
+              "permalink": "/guide/product_guide/",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/guide/product_guide/product_guide.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Product Guide Folder Intro"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
                 "title": "Guide Intro",
                 "permalink": "/guide/guide"
+              },
+              "next": {
+                "title": "Glowing Heart LED Kit Guide",
+                "permalink": "/guide/product_guide/glowing-heart"
               }
             }
           ],
@@ -469,7 +581,11 @@
                     "type": "doc",
                     "id": "product_guide/glowing-heart"
                   }
-                ]
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "product_guide/product_guide"
+                }
               }
             ]
           },

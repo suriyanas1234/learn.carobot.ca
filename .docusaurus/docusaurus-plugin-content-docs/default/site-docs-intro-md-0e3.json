@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Intro to KiCAD Basic Tutorial",
-    "permalink": "/docs/kicad/kicad-basic"
+    "title": "Intro to Folder Kicad",
+    "permalink": "/docs/kicad/"
   }
 }

@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','c25'),
+    component: ComponentCreator('/docs','69c'),
     routes: [
       {
         path: '/docs/guide',
@@ -115,14 +115,32 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/kicad',
+        component: ComponentCreator('/docs/kicad','56c'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/kicad/kicad-basic',
         component: ComponentCreator('/docs/kicad/kicad-basic','464'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/product_guide',
+        component: ComponentCreator('/docs/product_guide','af2'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/product_guide/glowing-heart',
         component: ComponentCreator('/docs/product_guide/glowing-heart','387'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tinkerkit',
+        component: ComponentCreator('/docs/tinkerkit','55f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -172,11 +190,17 @@ export default [
   },
   {
     path: '/guide',
-    component: ComponentCreator('/guide','ec0'),
+    component: ComponentCreator('/guide','ed4'),
     routes: [
       {
         path: '/guide/guide',
         component: ComponentCreator('/guide/guide','d7a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/guide/product_guide',
+        component: ComponentCreator('/guide/product_guide','da5'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

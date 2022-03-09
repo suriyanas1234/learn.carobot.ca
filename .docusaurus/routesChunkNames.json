@@ -125,7 +125,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-c25": {
+  "/docs-69c": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -137,13 +137,25 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
+  "/docs/kicad-56c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-kicadec-1-d88"
+  },
   "/docs/kicad/kicad-basic-464": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-kicad-kicad-basicedc-38b"
   },
+  "/docs/product_guide-af2": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-product-guide-967-fda"
+  },
   "/docs/product_guide/glowing-heart-387": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-product-guide-glowing-hearta-3-b-b5c"
+  },
+  "/docs/tinkerkit-55f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tinkerkit-9-c-1-0ab"
   },
   "/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide-9f3": {
     "component": "component---theme-doc-item-178-a40",
@@ -173,13 +185,17 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-tinkerkit-tinkerkit-lcd-tutorials-1-ff-3f7"
   },
-  "/guide-ec0": {
+  "/guide-ed4": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---guide-62-a-27a"
   },
   "/guide/guide-d7a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---guide-guided-11-de6"
+  },
+  "/guide/product_guide-da5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---guide-product-guide-0-f-2-e57"
   },
   "/guide/product_guide/glowing-heart-759": {
     "component": "component---theme-doc-item-178-a40",
