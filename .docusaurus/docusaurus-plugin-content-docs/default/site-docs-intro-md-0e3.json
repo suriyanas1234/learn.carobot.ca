@@ -6,7 +6,7 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/intro",
+  "permalink": "/docs/intro",
   "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/intro.md",
   "tags": [],
   "version": "current",
@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Intro to KiCAD Basic Tutorial",
-    "permalink": "/kicad/kicad-basic"
+    "title": "Intro to Folder Kicad",
+    "permalink": "/docs/kicad/"
   }
 }

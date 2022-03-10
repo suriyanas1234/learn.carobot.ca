@@ -99,75 +99,141 @@ export default [
     exact: true
   },
   {
-    path: '/',
-    component: ComponentCreator('/','deb'),
-    exact: true
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/','ebc'),
+    path: '/docs',
+    component: ComponentCreator('/docs','69c'),
     routes: [
       {
-        path: '/intro',
-        component: ComponentCreator('/intro','283'),
+        path: '/docs/guide',
+        component: ComponentCreator('/docs/guide','6de'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/kicad/kicad-basic',
-        component: ComponentCreator('/kicad/kicad-basic','f53'),
+        path: '/docs/intro',
+        component: ComponentCreator('/docs/intro','aed'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/product_guide/glowing-heart',
-        component: ComponentCreator('/product_guide/glowing-heart','b2f'),
+        path: '/docs/kicad',
+        component: ComponentCreator('/docs/kicad','56c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide',
-        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide','2d9'),
+        path: '/docs/kicad/kicad-basic',
+        component: ComponentCreator('/docs/kicad/kicad-basic','464'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd',
-        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd','e3a'),
+        path: '/docs/product_guide',
+        component: ComponentCreator('/docs/product_guide','af2'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial',
-        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial','fe9'),
+        path: '/docs/product_guide/glowing-heart',
+        component: ComponentCreator('/docs/product_guide/glowing-heart','387'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino',
-        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino','bc1'),
+        path: '/docs/tinkerkit',
+        component: ComponentCreator('/docs/tinkerkit','55f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires',
-        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires','498'),
+        path: '/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide',
+        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide','9f3'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires',
-        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires','9c8'),
+        path: '/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd',
+        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd','509'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/tinkerkit/tinkerkit-lcd-tutorials',
-        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorials','398'),
+        path: '/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial',
+        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial','d49'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino',
+        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino','9cf'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires',
+        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires','67e'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires',
+        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires','76d'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tinkerkit/tinkerkit-lcd-tutorials',
+        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorials','3c0'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }
     ]
+  },
+  {
+    path: '/guide',
+    component: ComponentCreator('/guide','ed4'),
+    routes: [
+      {
+        path: '/guide/guide',
+        component: ComponentCreator('/guide/guide','d7a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/guide/product_guide',
+        component: ComponentCreator('/guide/product_guide','da5'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/guide/product_guide/glowing-heart',
+        component: ComponentCreator('/guide/product_guide/glowing-heart','759'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      }
+    ]
+  },
+  {
+    path: '/resources',
+    component: ComponentCreator('/resources','c35'),
+    routes: [
+      {
+        path: '/resources/kicad/kicad-basic',
+        component: ComponentCreator('/resources/kicad/kicad-basic','f89'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/resources/ref',
+        component: ComponentCreator('/resources/ref','83d'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      }
+    ]
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/','deb'),
+    exact: true
   },
   {
     path: '*',

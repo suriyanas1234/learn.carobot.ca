@@ -1,37 +1,46 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import learnImg from '../../static/img/learn.png';
+// import learnImg from '../../static/img/learn1.png';
+import buildImg from '../../static/img/build.png';
+// import buildImg from '../../static/img/build1.png';
+import createImg from '../../static/img/create.png';
+// import createImg from '../../static/img/create3.png';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'LEARN',
+    /*Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,*/
+    Svg: learnImg, //require('../../static/img/learn.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Here at CARBOT you can learn through our provided tutorials on 
+        how to use the components needed for your project!
       </>
     ),
+    
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'BUILD',
+    Svg: buildImg, // require('../../static/img/build.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Choose the Guide tab, select a guide, and follow with step by step 
+        instructions on how to make a cool robotics project!
       </>
     ),
+    
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'CREATE',
+    Svg: createImg, // require('../../static/img/create.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The skys the limit! You can design and build your own robotics project!!
       </>
     ),
+    
   },
 ];
 
@@ -39,10 +48,10 @@ function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+      <img src={Svg} className={styles.featureSvg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <h3 class={styles.fontColour}>{title}</h3>
         <p>{description}</p>
       </div>
     </div>

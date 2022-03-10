@@ -11,7 +11,7 @@
       {
         "type": "link",
         "label": "Tutorial Intro",
-        "href": "/intro",
+        "href": "/docs/intro",
         "docId": "intro"
       },
       {
@@ -23,10 +23,11 @@
           {
             "type": "link",
             "label": "Intro to KiCAD Basic Tutorial",
-            "href": "/kicad/kicad-basic",
+            "href": "/docs/kicad/kicad-basic",
             "docId": "kicad/kicad-basic"
           }
-        ]
+        ],
+        "href": "/docs/kicad/"
       },
       {
         "type": "category",
@@ -37,46 +38,53 @@
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorials",
-            "href": "/tinkerkit/tinkerkit-lcd-tutorials",
+            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorials",
             "docId": "tinkerkit/tinkerkit-lcd-0"
           },
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorial 01 - Windows Installation Guide",
-            "href": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
+            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
             "docId": "tinkerkit/tinkerkit-lcd-1"
           },
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorial 02 - Introduction to LCD",
-            "href": "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
+            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
             "docId": "tinkerkit/tinkerkit-lcd-2"
           },
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorial 03 - LCD Serial",
-            "href": "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
+            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
             "docId": "tinkerkit/tinkerkit-lcd-3"
           },
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorial 04 - LCD Local (No Arduino)",
-            "href": "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
+            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
             "docId": "tinkerkit/tinkerkit-lcd-4"
           },
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorial 05 - Arduino & 2 Wires",
-            "href": "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
+            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
             "docId": "tinkerkit/tinkerkit-lcd-5"
           },
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorial 06 - TWI",
-            "href": "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
+            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
             "docId": "tinkerkit/tinkerkit-lcd-6"
           }
-        ]
+        ],
+        "href": "/docs/tinkerkit/"
+      },
+      {
+        "type": "link",
+        "label": "Guide Intro",
+        "href": "/docs/guide",
+        "docId": "guide"
       },
       {
         "type": "category",
@@ -87,18 +95,31 @@
           {
             "type": "link",
             "label": "Glowing Heart LED Kit Guide",
-            "href": "/product_guide/glowing-heart",
+            "href": "/docs/product_guide/glowing-heart",
             "docId": "product_guide/glowing-heart"
           }
-        ]
+        ],
+        "href": "/docs/product_guide/"
       }
     ]
   },
   "docs": {
+    "guide": {
+      "id": "guide",
+      "title": "Guide Intro",
+      "description": "Nothing here right now. Soon to be updated.",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "Tutorial Intro",
       "description": "Nothing here right now.",
+      "sidebar": "tutorialSidebar"
+    },
+    "kicad/kicad": {
+      "id": "kicad/kicad",
+      "title": "Intro to Folder Kicad",
+      "description": "hello hello this is a markdown file for the folder under intro of Kicad.",
       "sidebar": "tutorialSidebar"
     },
     "kicad/kicad-basic": {
@@ -111,6 +132,18 @@
       "id": "product_guide/glowing-heart",
       "title": "Glowing Heart LED Kit Guide",
       "description": "Glowing Heart LED Kit",
+      "sidebar": "tutorialSidebar"
+    },
+    "product_guide/product_guide": {
+      "id": "product_guide/product_guide",
+      "title": "Product Guide Folder Intro",
+      "description": "hello hello this is a markdown file for the folder under intro of prodcut guide.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tinkerkit/tinkerkit": {
+      "id": "tinkerkit/tinkerkit",
+      "title": "Tinker Kit Folder Intro",
+      "description": "hello hello this is a markdown file for the folder under intro of tinker kit.",
       "sidebar": "tutorialSidebar"
     },
     "tinkerkit/tinkerkit-lcd-0": {

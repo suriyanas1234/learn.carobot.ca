@@ -1,71 +1,160 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/docs",
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "guide",
+              "path": "/docs/guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
-              "path": "/intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "kicad/kicad",
+              "path": "/docs/kicad/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "kicad/kicad-basic",
-              "path": "/kicad/kicad-basic",
+              "path": "/docs/kicad/kicad-basic",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "product_guide/glowing-heart",
-              "path": "/product_guide/glowing-heart",
+              "path": "/docs/product_guide/glowing-heart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product_guide/product_guide",
+              "path": "/docs/product_guide/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tinkerkit/tinkerkit",
+              "path": "/docs/tinkerkit/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tinkerkit/tinkerkit-lcd-0",
-              "path": "/tinkerkit/tinkerkit-lcd-tutorials",
+              "path": "/docs/tinkerkit/tinkerkit-lcd-tutorials",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tinkerkit/tinkerkit-lcd-1",
-              "path": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
+              "path": "/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tinkerkit/tinkerkit-lcd-2",
-              "path": "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
+              "path": "/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tinkerkit/tinkerkit-lcd-3",
-              "path": "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
+              "path": "/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tinkerkit/tinkerkit-lcd-4",
-              "path": "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
+              "path": "/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tinkerkit/tinkerkit-lcd-5",
-              "path": "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
+              "path": "/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tinkerkit/tinkerkit-lcd-6",
-              "path": "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
+              "path": "/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
               "sidebar": "tutorialSidebar"
             }
           ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/intro",
+                "path": "/docs/intro",
                 "label": "intro"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "guide": {
+      "path": "/guide",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/guide",
+          "mainDocId": "guide",
+          "docs": [
+            {
+              "id": "guide",
+              "path": "/guide/guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product_guide/glowing-heart",
+              "path": "/guide/product_guide/glowing-heart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product_guide/product_guide",
+              "path": "/guide/product_guide/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/guide/guide",
+                "label": "guide"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "resources": {
+      "path": "/resources",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/resources",
+          "mainDocId": "ref",
+          "docs": [
+            {
+              "id": "kicad/kicad-basic",
+              "path": "/resources/kicad/kicad-basic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ref",
+              "path": "/resources/ref",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/resources/ref",
+                "label": "ref"
               }
             }
           }
