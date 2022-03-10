@@ -107,12 +107,12 @@ const config = {
             activeBaseRegex: `/guide/`,
           },
 
-          {
-            to: '/resources/ref',    // ./docs-api/Intro.md            
-            label: 'Resources',
-            position: 'left',
-            activeBaseRegex: `/resources/`,
-          },
+          //{
+          //  to: '/resources/ref',    // ./docs-api/Intro.md            
+          //  label: 'Resources',
+          //  position: 'left',
+          //  activeBaseRegex: `/resources/`,
+          //},
 
           // {to: '/blog', label: 'Blog', position: 'left'},
           {

@@ -22,7 +22,7 @@ export default {
         "docs": {
           "routeBasePath": "docs",
           "path": "docs",
-          "sidebarPath": "/Users/elsaahmed/GitHub/sidebars.js",
+          "sidebarPath": "/home/jacky/projects/carobot.github.io/sidebars.js",
           "lastVersion": "current",
           "onlyIncludeVersions": [
             "current"
@@ -30,7 +30,7 @@ export default {
           "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/"
         },
         "theme": {
-          "customCss": "/Users/elsaahmed/GitHub/src/css/custom.css"
+          "customCss": "/home/jacky/projects/carobot.github.io/src/css/custom.css"
         }
       }
     ]
@@ -42,7 +42,7 @@ export default {
         "id": "guide",
         "path": "guide",
         "routeBasePath": "guide",
-        "sidebarPath": "/Users/elsaahmed/GitHub/sidebars.js",
+        "sidebarPath": "/home/jacky/projects/carobot.github.io/sidebars.js",
         "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/"
       }
     ],
@@ -52,7 +52,7 @@ export default {
         "id": "resources",
         "path": "resources",
         "routeBasePath": "resources",
-        "sidebarPath": "/Users/elsaahmed/GitHub/sidebars.js",
+        "sidebarPath": "/home/jacky/projects/carobot.github.io/sidebars.js",
         "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/"
       }
     ]
@@ -76,12 +76,6 @@ export default {
           "label": "Guide",
           "position": "left",
           "activeBaseRegex": "/guide/"
-        },
-        {
-          "to": "/resources/ref",
-          "label": "Resources",
-          "position": "left",
-          "activeBaseRegex": "/resources/"
         },
         {
           "href": "https://www.canadarobotix.com",

@@ -11,11 +11,6 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "guide",
-              "path": "/docs/guide",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
@@ -28,16 +23,6 @@
             {
               "id": "kicad/kicad-basic",
               "path": "/docs/kicad/kicad-basic",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "product_guide/glowing-heart",
-              "path": "/docs/product_guide/glowing-heart",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "product_guide/product_guide",
-              "path": "/docs/product_guide/",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -113,8 +98,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "product_guide/infrared-sensor-module",
+              "path": "/guide/product_guide/infrared-sensor-module",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product_guide/motor-shield-v3",
+              "path": "/guide/product_guide/motor-shield-v3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "product_guide/product_guide",
               "path": "/guide/product_guide/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product_guide/tip-cleaning-paste",
+              "path": "/guide/product_guide/tip-cleaning-paste",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product_guide/ultrasonic-ranging-sensor",
+              "path": "/guide/product_guide/ultrasonic-ranging-sensor",
               "sidebar": "tutorialSidebar"
             }
           ],

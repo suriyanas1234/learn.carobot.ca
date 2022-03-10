@@ -79,37 +79,10 @@
           }
         ],
         "href": "/docs/tinkerkit/"
-      },
-      {
-        "type": "link",
-        "label": "Guide Intro",
-        "href": "/docs/guide",
-        "docId": "guide"
-      },
-      {
-        "type": "category",
-        "label": "Product Usage Guide",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Glowing Heart LED Kit Guide",
-            "href": "/docs/product_guide/glowing-heart",
-            "docId": "product_guide/glowing-heart"
-          }
-        ],
-        "href": "/docs/product_guide/"
       }
     ]
   },
   "docs": {
-    "guide": {
-      "id": "guide",
-      "title": "Guide Intro",
-      "description": "Nothing here right now. Soon to be updated.",
-      "sidebar": "tutorialSidebar"
-    },
     "intro": {
       "id": "intro",
       "title": "Tutorial Intro",
@@ -126,18 +99,6 @@
       "id": "kicad/kicad-basic",
       "title": "Intro to KiCAD Basic Tutorial",
       "description": "Installation",
-      "sidebar": "tutorialSidebar"
-    },
-    "product_guide/glowing-heart": {
-      "id": "product_guide/glowing-heart",
-      "title": "Glowing Heart LED Kit Guide",
-      "description": "Glowing Heart LED Kit",
-      "sidebar": "tutorialSidebar"
-    },
-    "product_guide/product_guide": {
-      "id": "product_guide/product_guide",
-      "title": "Product Guide Folder Intro",
-      "description": "hello hello this is a markdown file for the folder under intro of prodcut guide.",
       "sidebar": "tutorialSidebar"
     },
     "tinkerkit/tinkerkit": {

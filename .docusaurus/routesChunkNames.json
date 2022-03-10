@@ -125,13 +125,9 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-69c": {
+  "/docs-017": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
-  },
-  "/docs/guide-6de": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-guidea-8-b-967"
   },
   "/docs/intro-aed": {
     "component": "component---theme-doc-item-178-a40",
@@ -144,14 +140,6 @@
   "/docs/kicad/kicad-basic-464": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-kicad-kicad-basicedc-38b"
-  },
-  "/docs/product_guide-af2": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-product-guide-967-fda"
-  },
-  "/docs/product_guide/glowing-heart-387": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-product-guide-glowing-hearta-3-b-b5c"
   },
   "/docs/tinkerkit-55f": {
     "component": "component---theme-doc-item-178-a40",
@@ -185,7 +173,7 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-tinkerkit-tinkerkit-lcd-tutorials-1-ff-3f7"
   },
-  "/guide-ed4": {
+  "/guide-36f": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---guide-62-a-27a"
   },
@@ -200,6 +188,22 @@
   "/guide/product_guide/glowing-heart-759": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---guide-product-guide-glowing-heart-50-e-931"
+  },
+  "/guide/product_guide/infrared-sensor-module-aee": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---guide-product-guide-infrared-sensor-module-8-ae-a71"
+  },
+  "/guide/product_guide/motor-shield-v3-5ab": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---guide-product-guide-motor-shield-v-3-dc-6-c71"
+  },
+  "/guide/product_guide/tip-cleaning-paste-1be": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---guide-product-guide-tip-cleaning-paste-359-696"
+  },
+  "/guide/product_guide/ultrasonic-ranging-sensor-537": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---guide-product-guide-ultrasonic-ranging-sensorb-8-a-adc"
   },
   "/resources-c35": {
     "component": "component---theme-doc-page-1-be-9be",

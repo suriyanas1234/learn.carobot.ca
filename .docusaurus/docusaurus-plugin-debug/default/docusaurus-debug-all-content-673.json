@@ -14,36 +14,10 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/elsaahmed/GitHub/sidebars.js",
-          "contentPath": "/Users/elsaahmed/GitHub/docs",
-          "contentPathLocalized": "/Users/elsaahmed/GitHub/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/jacky/projects/carobot.github.io/sidebars.js",
+          "contentPath": "/home/jacky/projects/carobot.github.io/docs",
+          "contentPathLocalized": "/home/jacky/projects/carobot.github.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
-            {
-              "unversionedId": "guide",
-              "id": "guide",
-              "title": "Guide Intro",
-              "description": "Nothing here right now. Soon to be updated.",
-              "source": "@site/docs/guide.md",
-              "sourceDirName": ".",
-              "slug": "/guide",
-              "permalink": "/docs/guide",
-              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/guide.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "TinkerKit LCD - Tutorial 06 - TWI",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires"
-              },
-              "next": {
-                "title": "Product Guide Folder Intro",
-                "permalink": "/docs/product_guide/"
-              }
-            },
             {
               "unversionedId": "intro",
               "id": "intro",
@@ -115,54 +89,6 @@
               "next": {
                 "title": "Tinker Kit Folder Intro",
                 "permalink": "/docs/tinkerkit/"
-              }
-            },
-            {
-              "unversionedId": "product_guide/glowing-heart",
-              "id": "product_guide/glowing-heart",
-              "title": "Glowing Heart LED Kit Guide",
-              "description": "Glowing Heart LED Kit",
-              "source": "@site/docs/product_guide/2870-glowing-heart.md",
-              "sourceDirName": "product_guide",
-              "slug": "/product_guide/glowing-heart",
-              "permalink": "/docs/product_guide/glowing-heart",
-              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/product_guide/2870-glowing-heart.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "title": "Glowing Heart LED Kit Guide",
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Product Guide Folder Intro",
-                "permalink": "/docs/product_guide/"
-              }
-            },
-            {
-              "unversionedId": "product_guide/product_guide",
-              "id": "product_guide/product_guide",
-              "title": "Product Guide Folder Intro",
-              "description": "hello hello this is a markdown file for the folder under intro of prodcut guide.",
-              "source": "@site/docs/product_guide/product_guide.md",
-              "sourceDirName": "product_guide",
-              "slug": "/product_guide/",
-              "permalink": "/docs/product_guide/",
-              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/product_guide/product_guide.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "title": "Product Guide Folder Intro"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Guide Intro",
-                "permalink": "/docs/guide"
-              },
-              "next": {
-                "title": "Glowing Heart LED Kit Guide",
-                "permalink": "/docs/product_guide/glowing-heart"
               }
             },
             {
@@ -380,10 +306,6 @@
               "previous": {
                 "title": "TinkerKit LCD - Tutorial 05 - Arduino & 2 Wires",
                 "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires"
-              },
-              "next": {
-                "title": "Guide Intro",
-                "permalink": "/docs/guide"
               }
             }
           ],
@@ -448,26 +370,6 @@
                   "type": "doc",
                   "id": "tinkerkit/tinkerkit"
                 }
-              },
-              {
-                "type": "doc",
-                "id": "guide"
-              },
-              {
-                "type": "category",
-                "label": "Product Usage Guide",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "product_guide/glowing-heart"
-                  }
-                ],
-                "link": {
-                  "type": "doc",
-                  "id": "product_guide/product_guide"
-                }
               }
             ]
           },
@@ -490,9 +392,9 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/elsaahmed/GitHub/sidebars.js",
-          "contentPath": "/Users/elsaahmed/GitHub/guide",
-          "contentPathLocalized": "/Users/elsaahmed/GitHub/i18n/en/docusaurus-plugin-content-docs-guide/current",
+          "sidebarFilePath": "/home/jacky/projects/carobot.github.io/sidebars.js",
+          "contentPath": "/home/jacky/projects/carobot.github.io/guide",
+          "contentPathLocalized": "/home/jacky/projects/carobot.github.io/i18n/en/docusaurus-plugin-content-docs-guide/current",
           "docs": [
             {
               "unversionedId": "guide",
@@ -537,6 +439,64 @@
               "previous": {
                 "title": "Product Guide Folder Intro",
                 "permalink": "/guide/product_guide/"
+              },
+              "next": {
+                "title": "Hakko FS-100 Tip Cleaning Paste Guide",
+                "permalink": "/guide/product_guide/tip-cleaning-paste"
+              }
+            },
+            {
+              "unversionedId": "product_guide/infrared-sensor-module",
+              "id": "product_guide/infrared-sensor-module",
+              "title": "Infrared Sensor Module (TCRT5000) Guide",
+              "description": "The Infrared Sensor Module (TCRT5000) is a Line Tracking Module. It is an infrared distance module most used for object and obstacle detection, and robot applications like a line following robot car, product line decoder and much more.",
+              "source": "@site/guide/product_guide/2083-infrared-sensor-module.md",
+              "sourceDirName": "product_guide",
+              "slug": "/product_guide/infrared-sensor-module",
+              "permalink": "/guide/product_guide/infrared-sensor-module",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/guide/product_guide/2083-infrared-sensor-module.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Infrared Sensor Module (TCRT5000) Guide",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Hakko FS-100 Tip Cleaning Paste Guide",
+                "permalink": "/guide/product_guide/tip-cleaning-paste"
+              },
+              "next": {
+                "title": "CAROBOT Motor Shield v3 Guide",
+                "permalink": "/guide/product_guide/motor-shield-v3"
+              }
+            },
+            {
+              "unversionedId": "product_guide/motor-shield-v3",
+              "id": "product_guide/motor-shield-v3",
+              "title": "CAROBOT Motor Shield v3 Guide",
+              "description": "The CAROBOT Motor Shield allows you to easily control motor direction and speed using an Arduino. By allowing you to simply address Arduino pins, it makes it very simple to incorporate a motor into your project. It also allows you to be able to power a motor with a separate power supply of up to 12v. For all of these reasons, this motor shield is a popular device that is commonly used in projects, such as robot cars, and much more.",
+              "source": "@site/guide/product_guide/2337-motor-shield-v3.md",
+              "sourceDirName": "product_guide",
+              "slug": "/product_guide/motor-shield-v3",
+              "permalink": "/guide/product_guide/motor-shield-v3",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/guide/product_guide/2337-motor-shield-v3.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "CAROBOT Motor Shield v3 Guide",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Infrared Sensor Module (TCRT5000) Guide",
+                "permalink": "/guide/product_guide/infrared-sensor-module"
+              },
+              "next": {
+                "title": "HC-SR04 Ultrasonic Sensor Guide",
+                "permalink": "/guide/product_guide/ultrasonic-ranging-sensor"
               }
             },
             {
@@ -563,6 +523,56 @@
                 "title": "Glowing Heart LED Kit Guide",
                 "permalink": "/guide/product_guide/glowing-heart"
               }
+            },
+            {
+              "unversionedId": "product_guide/tip-cleaning-paste",
+              "id": "product_guide/tip-cleaning-paste",
+              "title": "Hakko FS-100 Tip Cleaning Paste Guide",
+              "description": "Tip Cleaning procedure using FS-100 Tip Cleaning Paste:",
+              "source": "@site/guide/product_guide/2816-tip-cleaning-paste.md",
+              "sourceDirName": "product_guide",
+              "slug": "/product_guide/tip-cleaning-paste",
+              "permalink": "/guide/product_guide/tip-cleaning-paste",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/guide/product_guide/2816-tip-cleaning-paste.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Hakko FS-100 Tip Cleaning Paste Guide",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Glowing Heart LED Kit Guide",
+                "permalink": "/guide/product_guide/glowing-heart"
+              },
+              "next": {
+                "title": "Infrared Sensor Module (TCRT5000) Guide",
+                "permalink": "/guide/product_guide/infrared-sensor-module"
+              }
+            },
+            {
+              "unversionedId": "product_guide/ultrasonic-ranging-sensor",
+              "id": "product_guide/ultrasonic-ranging-sensor",
+              "title": "HC-SR04 Ultrasonic Sensor Guide",
+              "description": "The HC-SR04 ultrasonic sensor module is a very popular module for measuring distance or any other purposes. It emits an ultrasound signal at about 40 000 Hz which travels through the air and if there is an object or obstacle along its path, the sound will bounce back to the module.",
+              "source": "@site/guide/product_guide/1072-ultrasonic-ranging-sensor.md",
+              "sourceDirName": "product_guide",
+              "slug": "/product_guide/ultrasonic-ranging-sensor",
+              "permalink": "/guide/product_guide/ultrasonic-ranging-sensor",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/guide/product_guide/1072-ultrasonic-ranging-sensor.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "HC-SR04 Ultrasonic Sensor Guide",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CAROBOT Motor Shield v3 Guide",
+                "permalink": "/guide/product_guide/motor-shield-v3"
+              }
             }
           ],
           "sidebars": {
@@ -580,6 +590,22 @@
                   {
                     "type": "doc",
                     "id": "product_guide/glowing-heart"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "product_guide/tip-cleaning-paste"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "product_guide/infrared-sensor-module"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "product_guide/motor-shield-v3"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "product_guide/ultrasonic-ranging-sensor"
                   }
                 ],
                 "link": {
@@ -608,9 +634,9 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/elsaahmed/GitHub/sidebars.js",
-          "contentPath": "/Users/elsaahmed/GitHub/resources",
-          "contentPathLocalized": "/Users/elsaahmed/GitHub/i18n/en/docusaurus-plugin-content-docs-resources/current",
+          "sidebarFilePath": "/home/jacky/projects/carobot.github.io/sidebars.js",
+          "contentPath": "/home/jacky/projects/carobot.github.io/resources",
+          "contentPathLocalized": "/home/jacky/projects/carobot.github.io/i18n/en/docusaurus-plugin-content-docs-resources/current",
           "docs": [
             {
               "unversionedId": "kicad/kicad-basic",

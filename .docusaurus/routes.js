@@ -100,14 +100,8 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','69c'),
+    component: ComponentCreator('/docs','017'),
     routes: [
-      {
-        path: '/docs/guide',
-        component: ComponentCreator('/docs/guide','6de'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),
@@ -123,18 +117,6 @@ export default [
       {
         path: '/docs/kicad/kicad-basic',
         component: ComponentCreator('/docs/kicad/kicad-basic','464'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/product_guide',
-        component: ComponentCreator('/docs/product_guide','af2'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/product_guide/glowing-heart',
-        component: ComponentCreator('/docs/product_guide/glowing-heart','387'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -190,7 +172,7 @@ export default [
   },
   {
     path: '/guide',
-    component: ComponentCreator('/guide','ed4'),
+    component: ComponentCreator('/guide','36f'),
     routes: [
       {
         path: '/guide/guide',
@@ -207,6 +189,30 @@ export default [
       {
         path: '/guide/product_guide/glowing-heart',
         component: ComponentCreator('/guide/product_guide/glowing-heart','759'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/guide/product_guide/infrared-sensor-module',
+        component: ComponentCreator('/guide/product_guide/infrared-sensor-module','aee'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/guide/product_guide/motor-shield-v3',
+        component: ComponentCreator('/guide/product_guide/motor-shield-v3','5ab'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/guide/product_guide/tip-cleaning-paste',
+        component: ComponentCreator('/guide/product_guide/tip-cleaning-paste','1be'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/guide/product_guide/ultrasonic-ranging-sensor',
+        component: ComponentCreator('/guide/product_guide/ultrasonic-ranging-sensor','537'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }
