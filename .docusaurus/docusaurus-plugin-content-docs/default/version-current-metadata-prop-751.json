@@ -11,8 +11,8 @@
       {
         "type": "link",
         "label": "Tutorial Intro",
-        "href": "/docs/intro",
-        "docId": "intro"
+        "href": "/tutorial",
+        "docId": "tutorial"
       },
       {
         "type": "category",
@@ -23,11 +23,11 @@
           {
             "type": "link",
             "label": "Intro to KiCAD Basic Tutorial",
-            "href": "/docs/kicad/kicad-basic",
+            "href": "/kicad/kicad-basic",
             "docId": "kicad/kicad-basic"
           }
         ],
-        "href": "/docs/kicad/"
+        "href": "/kicad/"
       },
       {
         "type": "category",
@@ -38,57 +38,51 @@
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorials",
-            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorials",
+            "href": "/tinkerkit/tinkerkit-lcd-tutorials",
             "docId": "tinkerkit/tinkerkit-lcd-0"
           },
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorial 01 - Windows Installation Guide",
-            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
+            "href": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
             "docId": "tinkerkit/tinkerkit-lcd-1"
           },
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorial 02 - Introduction to LCD",
-            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
+            "href": "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
             "docId": "tinkerkit/tinkerkit-lcd-2"
           },
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorial 03 - LCD Serial",
-            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
+            "href": "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
             "docId": "tinkerkit/tinkerkit-lcd-3"
           },
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorial 04 - LCD Local (No Arduino)",
-            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
+            "href": "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
             "docId": "tinkerkit/tinkerkit-lcd-4"
           },
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorial 05 - Arduino & 2 Wires",
-            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
+            "href": "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
             "docId": "tinkerkit/tinkerkit-lcd-5"
           },
           {
             "type": "link",
             "label": "TinkerKit LCD - Tutorial 06 - TWI",
-            "href": "/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
+            "href": "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
             "docId": "tinkerkit/tinkerkit-lcd-6"
           }
         ],
-        "href": "/docs/tinkerkit/"
+        "href": "/tinkerkit/"
       }
     ]
   },
   "docs": {
-    "intro": {
-      "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Nothing here right now.",
-      "sidebar": "tutorialSidebar"
-    },
     "kicad/kicad": {
       "id": "kicad/kicad",
       "title": "Intro to Folder Kicad",
@@ -147,6 +141,12 @@
       "id": "tinkerkit/tinkerkit-lcd-6",
       "title": "TinkerKit LCD - Tutorial 06 - TWI",
       "description": "The TinkerKit LCD module also supports TWI connections. TWI stands for “Two-Wire Interface” and it’s another way to call the I2C bus technology. Basically it allows to connect multiple devices in series. This means that you can hook a large number of LCD screens, connecting them “in-line” using the two TWI ports, one for input and one for output. One of them must be the master (or you can use a TInkerKit! shield), while the others must run the TWI firmware. The TWI port has four pins, that’s why we need the 4-pin jumper wire (Molex KK 2.54mm) cable to connect them.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial": {
+      "id": "tutorial",
+      "title": "Tutorial Intro",
+      "description": "Nothing here right now.",
       "sidebar": "tutorialSidebar"
     }
   }

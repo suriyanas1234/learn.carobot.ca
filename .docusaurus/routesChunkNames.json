@@ -125,54 +125,6 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-017": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-935-398"
-  },
-  "/docs/intro-aed": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
-  },
-  "/docs/kicad-56c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-kicadec-1-d88"
-  },
-  "/docs/kicad/kicad-basic-464": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-kicad-kicad-basicedc-38b"
-  },
-  "/docs/tinkerkit-55f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tinkerkit-9-c-1-0ab"
-  },
-  "/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide-9f3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tinkerkit-tinkerkit-lcd-tutorial-01-windows-installation-guide-7-f-3-176"
-  },
-  "/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd-509": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tinkerkit-tinkerkit-lcd-tutorial-02-introduction-to-lcdb-12-c6a"
-  },
-  "/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial-d49": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tinkerkit-tinkerkit-lcd-tutorial-03-lcd-serial-1-a-3-048"
-  },
-  "/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino-9cf": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tinkerkit-tinkerkit-lcd-tutorial-04-lcd-local-no-arduino-5-e-0-572"
-  },
-  "/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires-67e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tinkerkit-tinkerkit-lcd-tutorial-05-arduino-2-wires-0-e-8-0a8"
-  },
-  "/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires-76d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tinkerkit-tinkerkit-lcd-tutorial-06-arduino-2-wires-523-9e8"
-  },
-  "/docs/tinkerkit/tinkerkit-lcd-tutorials-3c0": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tinkerkit-tinkerkit-lcd-tutorials-1-ff-3f7"
-  },
   "/guide-36f": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---guide-62-a-27a"
@@ -220,5 +172,53 @@
   "/-deb": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",
     "config": "config---5-e-9-4f3"
+  },
+  "/-482": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---935-fcf"
+  },
+  "/kicad-e9a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---kicadec-1-837"
+  },
+  "/kicad/kicad-basic-f53": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---kicad-kicad-basicedc-003"
+  },
+  "/tinkerkit-247": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tinkerkit-9-c-1-c7b"
+  },
+  "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide-2d9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tinkerkit-tinkerkit-lcd-tutorial-01-windows-installation-guide-7-f-3-55d"
+  },
+  "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd-e3a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tinkerkit-tinkerkit-lcd-tutorial-02-introduction-to-lcdb-12-024"
+  },
+  "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial-fe9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tinkerkit-tinkerkit-lcd-tutorial-03-lcd-serial-1-a-3-228"
+  },
+  "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino-bc1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tinkerkit-tinkerkit-lcd-tutorial-04-lcd-local-no-arduino-5-e-0-d00"
+  },
+  "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires-498": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tinkerkit-tinkerkit-lcd-tutorial-05-arduino-2-wires-0-e-8-ffb"
+  },
+  "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires-9c8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tinkerkit-tinkerkit-lcd-tutorial-06-arduino-2-wires-523-4e0"
+  },
+  "/tinkerkit/tinkerkit-lcd-tutorials-398": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tinkerkit-tinkerkit-lcd-tutorials-1-ff-804"
+  },
+  "/tutorial-98a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tutorial-608-218"
   }
 }

@@ -5,8 +5,8 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/docs",
-          "tagsPath": "/docs/tags",
+          "versionPath": "/",
+          "tagsPath": "/tags",
           "versionEditUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs",
           "versionEditUrlLocalized": "https://github.com/carobot/carobot.github.io/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
@@ -19,28 +19,6 @@
           "contentPathLocalized": "/home/jacky/projects/carobot.github.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "intro",
-              "id": "intro",
-              "title": "Tutorial Intro",
-              "description": "Nothing here right now.",
-              "source": "@site/docs/intro.md",
-              "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/docs/intro",
-              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/intro.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "Intro to Folder Kicad",
-                "permalink": "/docs/kicad/"
-              }
-            },
-            {
               "unversionedId": "kicad/kicad",
               "id": "kicad/kicad",
               "title": "Intro to Folder Kicad",
@@ -48,7 +26,7 @@
               "source": "@site/docs/kicad/kicad.md",
               "sourceDirName": "kicad",
               "slug": "/kicad/",
-              "permalink": "/docs/kicad/",
+              "permalink": "/kicad/",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/kicad/kicad.md",
               "tags": [],
               "version": "current",
@@ -58,11 +36,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
+                "permalink": "/tutorial"
               },
               "next": {
                 "title": "Intro to KiCAD Basic Tutorial",
-                "permalink": "/docs/kicad/kicad-basic"
+                "permalink": "/kicad/kicad-basic"
               }
             },
             {
@@ -73,7 +51,7 @@
               "source": "@site/docs/kicad/kicad-basic.md",
               "sourceDirName": "kicad",
               "slug": "/kicad/kicad-basic",
-              "permalink": "/docs/kicad/kicad-basic",
+              "permalink": "/kicad/kicad-basic",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/kicad/kicad-basic.md",
               "tags": [],
               "version": "current",
@@ -84,11 +62,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Intro to Folder Kicad",
-                "permalink": "/docs/kicad/"
+                "permalink": "/kicad/"
               },
               "next": {
                 "title": "Tinker Kit Folder Intro",
-                "permalink": "/docs/tinkerkit/"
+                "permalink": "/tinkerkit/"
               }
             },
             {
@@ -99,7 +77,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/",
-              "permalink": "/docs/tinkerkit/",
+              "permalink": "/tinkerkit/",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit.md",
               "tags": [],
               "version": "current",
@@ -109,11 +87,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Intro to KiCAD Basic Tutorial",
-                "permalink": "/docs/kicad/kicad-basic"
+                "permalink": "/kicad/kicad-basic"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorials",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorials"
+                "permalink": "/tinkerkit/tinkerkit-lcd-tutorials"
               }
             },
             {
@@ -124,7 +102,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-0.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorials",
-              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorials",
+              "permalink": "/tinkerkit/tinkerkit-lcd-tutorials",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-0.md",
               "tags": [],
               "version": "current",
@@ -137,11 +115,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Tinker Kit Folder Intro",
-                "permalink": "/docs/tinkerkit/"
+                "permalink": "/tinkerkit/"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorial 01 - Windows Installation Guide",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide"
+                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide"
               }
             },
             {
@@ -152,7 +130,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-1.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
-              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
+              "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-1.md",
               "tags": [],
               "version": "current",
@@ -165,11 +143,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "TinkerKit LCD - Tutorials",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorials"
+                "permalink": "/tinkerkit/tinkerkit-lcd-tutorials"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorial 02 - Introduction to LCD",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd"
+                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd"
               }
             },
             {
@@ -180,7 +158,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-2.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
-              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
+              "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-2.md",
               "tags": [],
               "version": "current",
@@ -193,11 +171,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "TinkerKit LCD - Tutorial 01 - Windows Installation Guide",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide"
+                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorial 03 - LCD Serial",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial"
+                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial"
               }
             },
             {
@@ -208,7 +186,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-3.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
-              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
+              "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-3.md",
               "tags": [],
               "version": "current",
@@ -221,11 +199,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "TinkerKit LCD - Tutorial 02 - Introduction to LCD",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd"
+                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorial 04 - LCD Local (No Arduino)",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino"
+                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino"
               }
             },
             {
@@ -236,7 +214,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-4.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
-              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
+              "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-4.md",
               "tags": [],
               "version": "current",
@@ -249,11 +227,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "TinkerKit LCD - Tutorial 03 - LCD Serial",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial"
+                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorial 05 - Arduino & 2 Wires",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires"
+                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires"
               }
             },
             {
@@ -264,7 +242,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-5.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
-              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
+              "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-5.md",
               "tags": [],
               "version": "current",
@@ -277,11 +255,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "TinkerKit LCD - Tutorial 04 - LCD Local (No Arduino)",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino"
+                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino"
               },
               "next": {
                 "title": "TinkerKit LCD - Tutorial 06 - TWI",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires"
+                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires"
               }
             },
             {
@@ -292,7 +270,7 @@
               "source": "@site/docs/tinkerkit/tinkerkit-lcd-6.md",
               "sourceDirName": "tinkerkit",
               "slug": "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
-              "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
+              "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires",
               "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tinkerkit/tinkerkit-lcd-6.md",
               "tags": [],
               "version": "current",
@@ -305,7 +283,29 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "TinkerKit LCD - Tutorial 05 - Arduino & 2 Wires",
-                "permalink": "/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires"
+                "permalink": "/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires"
+              }
+            },
+            {
+              "unversionedId": "tutorial",
+              "id": "tutorial",
+              "title": "Tutorial Intro",
+              "description": "Nothing here right now.",
+              "source": "@site/docs/tutorial.md",
+              "sourceDirName": ".",
+              "slug": "/tutorial",
+              "permalink": "/tutorial",
+              "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/tutorial.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Intro to Folder Kicad",
+                "permalink": "/kicad/"
               }
             }
           ],
@@ -313,7 +313,7 @@
             "tutorialSidebar": [
               {
                 "type": "doc",
-                "id": "intro"
+                "id": "tutorial"
               },
               {
                 "type": "category",
@@ -373,7 +373,7 @@
               }
             ]
           },
-          "mainDocId": "intro",
+          "mainDocId": "tutorial",
           "categoryGeneratedIndices": []
         }
       ]

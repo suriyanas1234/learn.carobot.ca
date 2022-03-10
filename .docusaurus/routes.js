@@ -99,78 +99,6 @@ export default [
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs','017'),
-    routes: [
-      {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro','aed'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/kicad',
-        component: ComponentCreator('/docs/kicad','56c'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/kicad/kicad-basic',
-        component: ComponentCreator('/docs/kicad/kicad-basic','464'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tinkerkit',
-        component: ComponentCreator('/docs/tinkerkit','55f'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide',
-        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide','9f3'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd',
-        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd','509'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial',
-        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial','d49'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino',
-        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino','9cf'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires',
-        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires','67e'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires',
-        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires','76d'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tinkerkit/tinkerkit-lcd-tutorials',
-        component: ComponentCreator('/docs/tinkerkit/tinkerkit-lcd-tutorials','3c0'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      }
-    ]
-  },
-  {
     path: '/guide',
     component: ComponentCreator('/guide','36f'),
     routes: [
@@ -240,6 +168,78 @@ export default [
     path: '/',
     component: ComponentCreator('/','deb'),
     exact: true
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/','482'),
+    routes: [
+      {
+        path: '/kicad',
+        component: ComponentCreator('/kicad','e9a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/kicad/kicad-basic',
+        component: ComponentCreator('/kicad/kicad-basic','f53'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/tinkerkit',
+        component: ComponentCreator('/tinkerkit','247'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide',
+        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide','2d9'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd',
+        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd','e3a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial',
+        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial','fe9'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino',
+        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino','bc1'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires',
+        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires','498'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires',
+        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires','9c8'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/tinkerkit/tinkerkit-lcd-tutorials',
+        component: ComponentCreator('/tinkerkit/tinkerkit-lcd-tutorials','398'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/tutorial',
+        component: ComponentCreator('/tutorial','98a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      }
+    ]
   },
   {
     path: '*',

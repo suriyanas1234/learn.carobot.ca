@@ -20,7 +20,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "routeBasePath": "docs",
+          "routeBasePath": "/",
           "path": "docs",
           "sidebarPath": "/home/jacky/projects/carobot.github.io/sidebars.js",
           "lastVersion": "current",
@@ -67,7 +67,7 @@ export default {
       "items": [
         {
           "type": "doc",
-          "docId": "intro",
+          "docId": "tutorial",
           "position": "left",
           "label": "Tutorial"
         },
@@ -98,7 +98,7 @@ export default {
           "items": [
             {
               "label": "Tutorial",
-              "to": "docs/intro"
+              "to": "/tutorial"
             },
             {
               "label": "Guide",

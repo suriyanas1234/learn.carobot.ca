@@ -6,7 +6,7 @@
   "source": "@site/docs/kicad/kicad-basic.md",
   "sourceDirName": "kicad",
   "slug": "/kicad/kicad-basic",
-  "permalink": "/docs/kicad/kicad-basic",
+  "permalink": "/kicad/kicad-basic",
   "editUrl": "https://github.com/carobot/carobot.github.io/tree/main/docs/kicad/kicad-basic.md",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Intro to Folder Kicad",
-    "permalink": "/docs/kicad/"
+    "permalink": "/kicad/"
   },
   "next": {
     "title": "Tinker Kit Folder Intro",
-    "permalink": "/docs/tinkerkit/"
+    "permalink": "/tinkerkit/"
   }
 }
