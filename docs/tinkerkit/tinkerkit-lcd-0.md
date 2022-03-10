@@ -11,9 +11,9 @@ With the [TinkerKit LCD module](https://www.canadarobotix.com/products/1654), yo
 
 In here, you'll find 6 tutorials (an archive of the original TinkerKit tutorials) to help you get started:
 
-* [Tutorial 01 - Windows Installation Guide](/tinkerkit/tinkerkit-lcd-tutorial-01-windows-installation-guide)
-* [Tutorial 02 - Introduction to LCD](/tinkerkit/tinkerkit-lcd-tutorial-02-introduction-to-lcd)
-* [Tutorial 03 - LCD Serial](/tinkerkit/tinkerkit-lcd-tutorial-03-lcd-serial)
-* [Tutorial 04 - LCD Local (No Arduino)](/tinkerkit/tinkerkit-lcd-tutorial-04-lcd-local-no-arduino)
-* [Tutorial 05 - Arduino & 2 Wires](/tinkerkit/tinkerkit-lcd-tutorial-05-arduino-2-wires)
-* [Tutorial 06 - TWI](/tinkerkit/tinkerkit-lcd-tutorial-06-arduino-2-wires)
+* [Tutorial 01 - Windows Installation Guide](tinkerkit-lcd-tutorial-01-windows-installation-guide)
+* [Tutorial 02 - Introduction to LCD](tinkerkit-lcd-tutorial-02-introduction-to-lcd)
+* [Tutorial 03 - LCD Serial](tinkerkit-lcd-tutorial-03-lcd-serial)
+* [Tutorial 04 - LCD Local (No Arduino)](tinkerkit-lcd-tutorial-04-lcd-local-no-arduino)
+* [Tutorial 05 - Arduino & 2 Wires](tinkerkit-lcd-tutorial-05-arduino-2-wires)
+* [Tutorial 06 - TWI](tinkerkit-lcd-tutorial-06-arduino-2-wires)
