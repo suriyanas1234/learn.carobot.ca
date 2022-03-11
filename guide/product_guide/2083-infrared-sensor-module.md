@@ -9,27 +9,27 @@ The Infrared Sensor Module (TCRT5000) is a Line Tracking Module. It is an infrar
 
 This article will talk about the pinout and wiring of the module operating with an Arduino Board. At the end of the tutorial, you will learn how to build a line decoder to detect objects. 
 
-## **Wiring**
+## Wiring
 The infrared module operates at 3V to 5V DC and produces a digital output. There are two different types of infrared modules in the market where one can produce analog output and the other cannot. We will be using the [Infrared Sensor Module (TCRT5000)](https://www.canadarobotix.com/products/2083) (the one with no analog output), the one we carry in our shop. 
 
 The module consists of 3 output pins that connect the TCRT5000 module to a microcontroller, like Arduino. 
 
 ![](/img/docs/product_guide/2083_02.png)
 
-* GND: Ground pin to connect the tracking sensor to the ground with the microcontroller
-* VCC: Power pin for 3.3V to 5V operation voltage with the microcontroller 
-* OUT: Digital output pin based on a predefined threshold through the potentiometer and the operation voltage of the microcontroller.
+* **GND:** Ground pin to connect the tracking sensor to the ground with the microcontroller
+* **VCC:** Power pin for 3.3V to 5V operation voltage with the microcontroller 
+* **OUT:** Digital output pin based on a predefined threshold through the potentiometer and the operation voltage of the microcontroller.
 
-## **Parts**
-* Infrared Sensor Module (TCRT5000)
-* Arduino Uno R3
-* Jumper wires
-* LED lightbulb
-* Breadboard
-* 220 ohms resistor 
-* Arduino IDE
+## Parts
+* [Infrared Sensor Module (TCRT5000)](https://www.canadarobotix.com/products/2083)
+* [Arduino Uno R3](https://www.canadarobotix.com/products/60)
+* [Jumper wires](https://www.canadarobotix.com/products/922)
+* [LED lightbulb](https://www.canadarobotix.com/products/2417)
+* [Breadboard](https://www.canadarobotix.com/products/223)
+* [220 ohms resistor](https://www.canadarobotix.com/products/849)
+* [Arduino IDE](https://www.arduino.cc/en/software)
 
-## **Wiring Guide**
+## Wiring Guide
 Connect all the pins with female to male jumper wires
 
 ![](/img/docs/product_guide/2083_03.png)
@@ -60,10 +60,10 @@ It does not matter how you put the resistor on to the breadboard as both the leg
 ![](/img/docs/product_guide/2083_08.png)
 ![](/img/docs/product_guide/2083_09.png)
 
-## **Programming**
+## Programming
 We want to read the output from Serial Monitor, so we know what is really happening with the infrared sensor module. 
 
-If you want to skip the steps and jump to the Full Code. 
+If you want to skip the steps, you can jump to the Full Code. 
 
 **Step 1:** Define the connection pin
 
@@ -114,7 +114,7 @@ void loop(){
 }
 ```
 
-**Full Code**
+# Full Code
 
 ```c
 #define digital_pin 7
@@ -142,7 +142,7 @@ void loop(){
 }
 ```
 
-## **Output**
+## Output
 We will cover up the LED with our fingers to demonstrate what it is like when it detects an object in front of it. 
 
 ![](/img/docs/product_guide/2083_01.gif)

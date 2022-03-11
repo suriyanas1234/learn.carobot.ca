@@ -9,11 +9,12 @@ The CAROBOT Motor Shield allows you to easily control motor direction and speed 
 
 In this article, we will talk about the setup and operation of the CAROBOT Motor shield with Arduino. 
 
-**Parts**
+## Parts
 * [CAROBOT Motor Shield V3](https://www.canadarobotix.com/2337)
 * [Arduino Uno R3](https://www.canadarobotix.com/60)
 * [Gear Motor](https://www.canadarobotix.com/2664)
 * [Servo Motor](https://www.canadarobotix.com/1621)
+
 ## Wiring Guide
 The pins of the motor shield is designed to stack on Arduino Uno as it will only align with it. In order to make it work with other versions of Arduino boards, you will need to use jumper wires to connect the according pins. 
 
@@ -27,18 +28,13 @@ Make sure you match the pins with Arduino Uno before stacking.
 
 The header pins will not go all the way down in the stackable pins. 
 
-**Side view**
-
-![](/img/docs/product_guide/2337_02.png)
-![](/img/docs/product_guide/2337_03.png)
-
-
-**Top view**
-
-![](/img/docs/product_guide/2337_04.png)
+|**Side view**|**Top view**|
+|---|---|
+|![](/img/docs/product_guide/2337_02.png)|![](/img/docs/product_guide/2337_04.png)|
+|![](/img/docs/product_guide/2337_03.png)||
 
 
-## Wiring PinOut
+# Wiring PinOut
 The motor shield has 6 channels, which allows for the control of 4 DC motors and 2 stepper motors. 
 
 * 2 connections for 5V **'hobby' servos** connected to the Arduino's high-resolution dedicated timer
@@ -46,7 +42,7 @@ The motor shield has 6 channels, which allows for the control of 4 DC motors and
 
 There are pins on the Arduino that are always in use by the shield. By addressing these pins, you can select a motor channel to initiate, specify the motor direction and stop and start the motor 
 
-## Motor Pinout
+# Motor Pinout
 |Motor #|Pin 1|Pin 2|
 |-------|-----|-----|
 |Motor 1 (M1)|10|9|
@@ -54,7 +50,7 @@ There are pins on the Arduino that are always in use by the shield. By addressin
 |Motor 3 (M3)|4|3|
 |Motor 4 (M4)|5|6|
 
-## Servo Motor Pinout
+# Servo Motor Pinout
 |Servo #|Pin|
 |-------|---|
 |Servo 1|8|
@@ -62,7 +58,7 @@ There are pins on the Arduino that are always in use by the shield. By addressin
 
 For more information about the technical specs, check out the motor shield's official page on the our website. 
 
-## **Connecting a gear motor onto the Shield **
+## Connecting a gear motor onto the Shield
 To control a motor using the CAROBOT Motor Shield, first plug the motor's positive (red) wire into one of Channel A's terminal on the motor shield, and the motor's ground (black) wire into the other Channel A's terminal on the shield. 
 
 ![](/img/docs/product_guide/2337_02.gif)
@@ -71,12 +67,11 @@ To control a motor using the CAROBOT Motor Shield, first plug the motor's positi
 
 Next, connect your external power supply to the CAROBOT Motor Shield. Connect the positive (red) wire from the power supply to the "VIN" terminal, and the ground (black) wire to the "GND" terminal. 
 
-![](/img/docs/product_guide/2337_04.gif)
-![](/img/docs/product_guide/2337_05.gif)
-![](/img/docs/product_guide/2337_06.png)
-![](/img/docs/product_guide/2337_07.png)
+|![](/img/docs/product_guide/2337_04.gif)|![](/img/docs/product_guide/2337_05.gif)|
+|---|---|
+|![](/img/docs/product_guide/2337_06.png)|![](/img/docs/product_guide/2337_07.png)|
 
-## **Programming **
+# Programming
 To begin controlling motors, you will need to install the motor shield library online. 
 
 Step 1: Go to ***Arduino > Sketch > Include Library > Manage Libraries***
@@ -99,7 +94,7 @@ Step 5: Once you have installed the library, go to ***File > Examples > Adafruit
 
 ![](/img/docs/product_guide/2337_12.png)
 
-## **Code Explanation**
+# Code Explanation
 **Step 1:** Include libraries
 
 ```c
@@ -191,7 +186,7 @@ myMotor->run(RELEASE);
 }
 ```
 
-**Full Code:**
+# Full Code:
 
 ```c
 #include <Wire.h>
@@ -247,12 +242,12 @@ void loop() {
 }
 ```
 
-## **Output**
+# Output
 Now, you should see the DC motor turn on and move back and forth. 
 
 ![](/img/docs/product_guide/2337_06.gif)
 
-## **Connecting a servo motor onto the Shield**
+## Connecting a servo motor onto the Shield
 Hobby servos are the easiest way to get going with motor control. They consist of 3 pins: +5V, GND and signal inputs. The motor brings out the PWM output lines from Arduino pins 8 and 9 to two 3-pin headers so that it is easier to plug in and go. 
 
 To control a motor using the CAROBOT Motor Shield, first plug the servo motor's pins into the headers. 
@@ -263,7 +258,7 @@ To control a motor using the CAROBOT Motor Shield, first plug the servo motor's 
 
 We do not need an external power supply for the servo motor as the motor receives power from the Arduino's on-board 5V regulator, powered directly from the USB or DC power jack on the Arduino. 
 
-## **Programming** 
+# Programming
 There is a built-in Servo Library in Arduino that you can use for this project. 
 
 **Step 1: Go to *File > Examples > Servo > Sweep***
@@ -275,7 +270,7 @@ void setup() {
   myservo.attach(8);  // attaches the servo on pin 9 to the servo object
 }
 ```
-## **Code Explanation**
+## Code Explanation
 **Step 1:** Include Library
 
 ```c
@@ -320,7 +315,7 @@ for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
 }
 ```
 
-Full Code:
+# Full Code:
 
 ```c
 #include <Servo.h>
@@ -346,6 +341,6 @@ void loop() {
 }
 ```
 
-## **Output**
+# Output
 Now, you should be able to see the servo motor arm going back and forth. 
 ![](/img/docs/product_guide/2337_08.gif)
