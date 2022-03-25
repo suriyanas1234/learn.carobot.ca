@@ -9,17 +9,17 @@ The HC-SR04 ultrasonic sensor module is a very popular module for measuring dist
 
 In this article, we will talk about how to wire and set up the module for operation with an Arduino Board.  
 
-**Wiring**
+# Wiring
 Most HC-SR04 modules operate at 5V and gives out digital outputs. For this project, we will be using the [HC-SR04 Ultrasonic Sensor module](https://www.canadarobotix.com/products/1072) we carry in our shop. This module consists of 4 pins:** VCC, TRIG, ECHO** and **GND**. Both the TRIG and ECHO pins can be connected to any Digital output pins on an Arduino Board. 
 
-**Parts**
+## Parts
 * [HC-SR04 Ultrasonic Sensor](https://www.canadarobotix.com/products/1072)
 * [Arduino Uno R3](https://www.canadarobotix.com/products/60)
 * [BreadBoard](https://www.canadarobotix.com/products/223)
 * [Jumper wires](https://www.canadarobotix.com/products/922)
 * [Arduino IDE](https://www.arduino.cc/en/software)
 
-## **Wiring Guide** 
+## Wiring Guide 
 Insert the HC-SR04 module onto a breadboard and connect the pins with male to male jumper wires 
 
 ![](/img/docs/product_guide/1072_01.png)
@@ -32,8 +32,8 @@ Insert the HC-SR04 module onto a breadboard and connect the pins with male to ma
 ![](/img/docs/product_guide/1072_02.png)
 ![](/img/docs/product_guide/1072_03.png)
 
-## **Programming **
-The following code demonstrates how the ultrasonic sensor works and measure the distance if an object or obstacle is in front of it. If you want to skip the steps and jump to the Full Code. 
+## Programming
+The following code demonstrates how the ultrasonic sensor works and measure the distance if an object or obstacle is in front of it. If you want to skip the steps, you can jump to the Full Code. 
 
 **Step 1:** Define connection pins
 
@@ -100,7 +100,7 @@ To get the distance in centimetre, we need to use the math formula, Time = Dista
 }
 ```
 
-Full Code
+# Full Code
 
 ```c
 #define echo 2 
@@ -132,7 +132,7 @@ void loop(){
 }
 ```
 
-## **Output**
+## Output
 Serial Monitor will display the distance from the sensor to the object. In this example, I moved my hand forward and backwards to test the distance measurements.
 
 ![](/img/docs/product_guide/1072_01.gif)
