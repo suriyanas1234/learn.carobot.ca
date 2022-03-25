@@ -1,12 +1,9 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
-// import learnImg from '../../static/img/learn.png';
-import learnImg from '../../static/img/learn (1) (1).png';
-// import buildImg from '../../static/img/build.png';
-import buildImg from '../../static/img/build (1) (2).png';
-// import createImg from '../../static/img/create.png';
-import createImg from '../../static/img/create (1) (1).png';
+import learnImg from '../../static/img/learn.png';
+import buildImg from '../../static/img/build.png';
+import createImg from '../../static/img/create.png';
 
 const FeatureList = [
   {
