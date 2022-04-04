@@ -258,7 +258,7 @@ To control a motor using the CAROBOT Motor Shield, first plug the servo motor's 
 
 We do not need an external power supply for the servo motor as the motor receives power from the Arduino's on-board 5V regulator, powered directly from the USB or DC power jack on the Arduino. 
 
-# Programming
+## Programming
 There is a built-in Servo Library in Arduino that you can use for this project. 
 
 **Step 1: Go to *File > Examples > Servo > Sweep***
@@ -315,7 +315,7 @@ for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
 }
 ```
 
-# Full Code:
+## Full Code:
 
 ```c
 #include <Servo.h>
@@ -341,6 +341,6 @@ void loop() {
 }
 ```
 
-# Output
+## Output
 Now, you should be able to see the servo motor arm going back and forth. 
 ![](/img/docs/product_guide/2337_08.gif)
