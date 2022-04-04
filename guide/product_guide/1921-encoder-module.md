@@ -9,7 +9,7 @@ In this article, we'll talk  about how to wire and set up the module for operati
 
 ![](/img/docs/product_guide/1921_01.png)
 
-# Wiring
+## Wiring
 
 Most HC-020K modules operate with 5V and produce a digital output within the range of 0V to 5V. It will provide a 5V output when the beam is blocked, and a 0V output when the beam is unblocked. Arduino can read the pulse train to determine how far the motor has travelled at what velocity. For this article, we'll be using [HC-020K Encoder Module](https://www.canadarobotix.com/1921), the one we carry in our shop. 
 
@@ -135,7 +135,7 @@ TIME = millis();
     attachInterrupt(digitalPinToInterrupt(encoder), count, FALLING);
 ```
 
-# Step 4 code:
+## Step 4 code:
 
 ```c
 void loop(){
@@ -154,7 +154,7 @@ void loop(){
 }
 ```
 
-# Full Code:
+## Full Code:
 
 ```c
 #define encoder 2
@@ -197,7 +197,7 @@ void loop(){
 }
 ```
 
-# Serial Monitor Output
+## Serial Monitor Output
 ![](/img/docs/product_guide/1921_02.gif)
 
 ![](/img/docs/product_guide/1921_10.png)

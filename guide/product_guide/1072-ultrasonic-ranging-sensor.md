@@ -9,7 +9,7 @@ The HC-SR04 ultrasonic sensor module is a very popular module for measuring dist
 
 In this article, we will talk about how to wire and set up the module for operation with an Arduino Board.  
 
-# Wiring
+## Wiring
 Most HC-SR04 modules operate at 5V and gives out digital outputs. For this project, we will be using the [HC-SR04 Ultrasonic Sensor module](https://www.canadarobotix.com/products/1072) we carry in our shop. This module consists of 4 pins:** VCC, TRIG, ECHO** and **GND**. Both the TRIG and ECHO pins can be connected to any Digital output pins on an Arduino Board. 
 
 ## Parts
@@ -100,7 +100,7 @@ To get the distance in centimetre, we need to use the math formula, Time = Dista
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 #define echo 2 

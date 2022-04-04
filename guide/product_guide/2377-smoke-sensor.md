@@ -13,7 +13,7 @@ The smoke sensor has a built-in potentiometer that allows you to adjust the sens
 
 In this article, we will talk about how to wire and set up the module for operation with an Arduino Board.  
 
-# Wiring 
+## Wiring 
 Most MQ-2 modules operate at 5V and gives out both analog and digital outputs. For this project, we will be using [MQ-2 Smoke Sensor](https://www.canadarobotix.com/2377), the one we carry in our shop. This module consists of 4 pins: **VCC, A0, D0** and **GND**.
 
 ## Parts
@@ -81,7 +81,7 @@ void loop(){
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 #define sensor A0 

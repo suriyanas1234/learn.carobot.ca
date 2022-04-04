@@ -9,7 +9,7 @@ In this article, we'll talk about how to wire and set up the module for operatio
 
 ![](/img/docs/product_guide/1750_01.png)
 
-# Wiring
+## Wiring
 This module can work from 3.3V to 5V. In this project, we will use 5V to power the module. This module is output Logic Low in the resting state (when triggered). It will output Logic High when the module is not triggered. 
 
 There are several types of vibration sensors available in the market which can detect the vibration by sensing acceleration or velocity and could provide an excellent result. However, some of them are too expensive. But, there are a few dedicated and cheap sensors that are able to detect vibrations only, like SW-18015P, which we are going to use with Arduino Uno. We will work with the [SW-18015P Motion Vibration Sensor Module](https://www.canadarobotix.com/1750), the one we carry in our shop. 
@@ -74,7 +74,7 @@ if (value == HIGH){
   }
 ```
 
-# Full Code:
+## Full Code:
 
 ```c
 #define led 13 // define LED interface

@@ -19,7 +19,7 @@ If you want to know more, check out this [DHT11 data sheet](https://cdn.shopify.
 * Temperature Accuracy: ±2% °C
 * Operating Voltage: 3V to 5.5V
 
-# How it works 
+## How it works 
 The DHT11 detects water vapour by measuring the electrical resistance between two electrodes, while it measures temperature with a surface-mounted NTC temperature sensor (thermistor) built into the unit. 
 
 It uses just one signal wire to transmit data to the Arduino. Power comes from separate 5V and ground wires. A 10K ohm pull-up resistor is needed between the signal line and 5V line to make sure the signal level stays high by default. 
@@ -51,7 +51,7 @@ Then, connect the male to male jumper wires onto the breadboard.
 
 ![](/img/docs/product_guide/1754_04.png)
 
-# Connect the sensor with Arduino Uno
+## Connect the sensor with Arduino Uno
 DTH11 **VCC** (leftmost pin) -- Arduino **5V** pin
 DTH11 **Signal** (second leftmost pin) -- Arduino **D7** pin 
 DTH11 **Ground**(rightmost pin) -- Arduino **GND** pin 
@@ -112,7 +112,7 @@ Serial.print("Temperature = ");
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 #include <dht.h>

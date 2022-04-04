@@ -97,7 +97,7 @@ Step 6: Stop for half a second.
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 #define sensor 2

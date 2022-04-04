@@ -114,7 +114,7 @@ void loop(){
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 #define digital_pin 7

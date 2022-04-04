@@ -9,7 +9,7 @@ In this article, we'll talk about how to wire and set up the module for operatio
 
 ![](/img/docs/product_guide/1886_01.jpg)
 
-# Wiring
+## Wiring
 This module can work from 3.3V to 5V. In this project, we will use 5V to power the module. During normal operation, the sensor provides Logic Low and when the vibration is detected, the sensor provides Logic High.
 
 There are several types of vibration sensors available in the market which can detect the vibration bye sensing acceleration or velocity and could provide an excellent result. However, some of them are too expensive. But, there are a few dedicated and cheap sensors that are able to detect vibrations only, like SW-420, which we are going to use with Arduino Uno. We will work with [SW-420 Vibration Sensor Module](https://www.canadarobotix.com/1886), the one we carry in our shop. 
@@ -86,7 +86,7 @@ if (previous_condition != current_condition){
   }
 ```
 
-# Full Code: 
+## Full Code: 
 
 ```c
 int vibration_sensor = A0;

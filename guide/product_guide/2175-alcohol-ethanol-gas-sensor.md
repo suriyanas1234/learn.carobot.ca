@@ -9,7 +9,7 @@ In this article, we will talk about how to wire and set up the module for operat
 
 ![](/img/docs/product_guide/2175_01.png)
 
-# Wiring 
+## Wiring 
 MQ-03 alcohol sensor operates at 5V DC and draws around 800mW. It can detect alcohol concentrations anywhere from 25ppm to 500 ppm. It comes with both the digital and analog output pins. The analog output voltage provided by the sensor varies in proportion to the alcohol concentration. The higher the alcohol concentration in the air, the higher the output voltage; whereas lower concentration gives lower output voltage. The same analog signal is fed to a LM393 comparator to digitize it and is made available at the digital output pin.
 
 The sensor has a built-in potentiometer for adjusting the sensitivity of the digital output where it can be used to set a threshold, so that when the alcohol concentration exceeds the value, the sensor will output LOW otherwise HIGH. The sensor also comes with two LEDs, the power LED will light up when the sensor is powered, while the status LED will light up when the digital output goes LOW. 
@@ -91,7 +91,7 @@ Serial.print("Digital Output: ");
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 #define sensor 7

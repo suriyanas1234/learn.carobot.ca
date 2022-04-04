@@ -25,7 +25,7 @@ In this guide, we'll only talk about how to read the digital sginal from the sen
 
  ![](/img/docs/product_guide/1752_02.png)
 
-# Connect to Arduino Uno 
+## Connect to Arduino Uno 
 * Flame Sensor Module **VCC** -- Arduino **5V** pin
 * Flame Sensor Module **GND** -- Arduino **GND** pin
 * Flame Sensor Module **D0** -- Arduino **D7** pin
@@ -76,7 +76,7 @@ void loop(){
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 #define sensor 7

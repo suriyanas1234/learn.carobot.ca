@@ -5,13 +5,13 @@ sidebar_position: 11
 
 LCD is widely used in applications to show characters and messages other than using the serial monitor. Our LCD shield kit makes it easy for you you to connect a LCD with an Arduino without using up any of the digital I/O pin except for the 2 I2C pins. As a result, you can connect more electronics into one shield, making it much easier to work with on the Arduino boards. 
 
-# Part List
+## Part List
 * [LCD Shield Kit](https://www.canadarobotix.com/2030)
 * [Female to Male Header Pins](https://www.canadarobotix.com/143)
 * [Arduino Uno R3](https://www.canadarobotix.com/products/60)
 * [Arduino IDE](https://www.arduino.cc/en/software)
 
-# Equipment List
+## Equipment List
 * [Soldering Iron](https://www.canadarobotix.com/1557)
 * [Wire cutter](https://www.canadarobotix.com/1897)
 * [Solder lead-free](https://www.canadarobotix.com/0964)
@@ -23,7 +23,7 @@ LCD is widely used in applications to show characters and messages other than us
 ## Assembly
 If you have already assembled the board, you can jump to the Wiring Guide. 
 
-# Soldering Technique:
+## Soldering Technique:
 
 **With your soldering iron heated up and ready, solder in both leads of the resistors. To do this, heat the round ring pad and the wire lead at the same time for 2 to 3 seconds, then dip the end of the solder into the heated joint to melt it in. Then remove the solder and the soldering iron. **
 
@@ -107,7 +107,7 @@ Front & Back:
 ![](/img/docs/product_guide/2030_16.png)
 ![](/img/docs/product_guide/2030_17.png)
 
-# Final Build
+## Final Build
 
 ![](/img/docs/product_guide/2030_18.png)
 
@@ -243,7 +243,7 @@ if (buttons){
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 #include <Wire.h>

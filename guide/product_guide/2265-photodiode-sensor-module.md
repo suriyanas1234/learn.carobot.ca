@@ -84,7 +84,7 @@ void loop(){
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 #define sensor 7

@@ -9,7 +9,7 @@ In this article, we will talk about how to wire and set up the module for operat
 
 ![](/img/docs/product_guide/1923_01.jpg)
 
-# Wiring 
+## Wiring 
 
 Most ACS712 modules operate at 5V and produce an analog voltage output proportional to the measured current. For this project, we use a power supply (giving output voltage from 0 to 5V), and a resistor to generate current from 0 to 5 A. There are a few versions of the ACS712 Module in the market, but for this article, we will be using [ACS712 Current Sensor Module](https://www.canadarobotix.com/1923), the one we carry in our shop. 
 
@@ -50,7 +50,7 @@ float current = (sensor_read - 2500)/sensitivity;
 //calculate for the current value
 ```
 
-# Full Code:
+## Full Code:
 
 ```c
 #define VIN A0
@@ -74,7 +74,7 @@ void loop() {
 }
 ```
 
-# Serial Monitor Output:
+## Serial Monitor Output:
 
 When there is no current passing through in the circuit. Serial Monitor will output "0.00A". 
 
