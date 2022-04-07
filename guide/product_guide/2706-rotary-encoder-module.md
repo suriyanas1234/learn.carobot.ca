@@ -9,7 +9,7 @@ In this article, we'll talk about how to wire and set up the module for operatio
 
 ![](/img/docs/product_guide/2706_01.jpg)
 
-# Wiring 
+## Wiring 
 
 The rotary encoder module operates at 5V and produces an analog or digital output. There are many different types of rotary encoders in the market which are classified by output signals or sensing technology. However, we will be using [Rotary Encoder Module](https://www.canadarobotix.com/2706), the one we carry in our shop. 
 
@@ -91,7 +91,7 @@ Serial.print("Position: ");
   laststate = state; // update the previous state of outputA
 ```
 
-# Full Code:
+## Full Code:
 
 ```c
 #define outputA 3

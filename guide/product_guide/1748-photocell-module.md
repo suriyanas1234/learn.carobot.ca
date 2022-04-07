@@ -107,7 +107,7 @@ void loop(){
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 #define sensor 7 
@@ -137,7 +137,7 @@ void loop(){
 }
 ```
 
-# Output 
+## Output 
 When it is dark enough, the internal LED (The light next to pin 13) will turn on. 
 
 ![](/img/docs/product_guide/1748_09.png)
@@ -214,7 +214,7 @@ void loop(){
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 #define sensor A0 
@@ -252,7 +252,7 @@ void loop(){
 }
 ```
 
-# Output
+## Output
 Move around and test it out!
 
 Arduino will tell you the brightness level of the light around you depending on the analog output the sensor produces. The higher the value, the darker the brightness level. 
@@ -304,7 +304,7 @@ Step 5: Compare the input with the value. If the input is less than the value, i
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 #define sensor A0
@@ -330,7 +330,7 @@ void loop(){
 }
 ```
 
-# Output
+## Output
 As we cover up the photocell, the brightness level will be lower than the threshold value, which Arduino will turn on the internal led (the light next to pin 13). 
 
 ![](/img/docs/product_guide/1748_14.png)

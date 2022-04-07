@@ -34,7 +34,7 @@ The header pins will not go all the way down in the stackable pins.
 |![](/img/docs/product_guide/2337_03.png)||
 
 
-# Wiring PinOut
+## Wiring PinOut
 The motor shield has 6 channels, which allows for the control of 4 DC motors and 2 stepper motors. 
 
 * 2 connections for 5V **'hobby' servos** connected to the Arduino's high-resolution dedicated timer
@@ -42,7 +42,7 @@ The motor shield has 6 channels, which allows for the control of 4 DC motors and
 
 There are pins on the Arduino that are always in use by the shield. By addressing these pins, you can select a motor channel to initiate, specify the motor direction and stop and start the motor 
 
-# Motor Pinout
+## Motor Pinout
 |Motor #|Pin 1|Pin 2|
 |-------|-----|-----|
 |Motor 1 (M1)|10|9|
@@ -50,7 +50,7 @@ There are pins on the Arduino that are always in use by the shield. By addressin
 |Motor 3 (M3)|4|3|
 |Motor 4 (M4)|5|6|
 
-# Servo Motor Pinout
+## Servo Motor Pinout
 |Servo #|Pin|
 |-------|---|
 |Servo 1|8|
@@ -71,7 +71,7 @@ Next, connect your external power supply to the CAROBOT Motor Shield. Connect th
 |---|---|
 |![](/img/docs/product_guide/2337_06.png)|![](/img/docs/product_guide/2337_07.png)|
 
-# Programming
+## Programming
 To begin controlling motors, you will need to install the motor shield library online. 
 
 Step 1: Go to ***Arduino > Sketch > Include Library > Manage Libraries***
@@ -94,7 +94,7 @@ Step 5: Once you have installed the library, go to ***File > Examples > Adafruit
 
 ![](/img/docs/product_guide/2337_12.png)
 
-# Code Explanation
+## Code Explanation
 **Step 1:** Include libraries
 
 ```c
@@ -186,7 +186,7 @@ myMotor->run(RELEASE);
 }
 ```
 
-# Full Code:
+## Full Code:
 
 ```c
 #include <Wire.h>
@@ -242,7 +242,7 @@ void loop() {
 }
 ```
 
-# Output
+## Output
 Now, you should see the DC motor turn on and move back and forth. 
 
 ![](/img/docs/product_guide/2337_06.gif)

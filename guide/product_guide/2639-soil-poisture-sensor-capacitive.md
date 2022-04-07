@@ -9,7 +9,7 @@ The Soil Moisture Sensor Module (Capacitive) acts like a capacitor where the wat
 
 In this article, we will talk about how to wire and set up the module for operation with an Arduino Board. 
 
-# Wiring 
+## Wiring 
 Most soil moisture sensor module operates between 3.3V to 5V and produce an analog output. For this project, we will be using [Soil Moisture Sensor Module (Capacitive)](https://www.canadarobotix.com/products/2639), the one we carry in our shop. 
 
 ## Parts
@@ -67,7 +67,7 @@ void loop(){
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 int value = 0;
@@ -153,7 +153,7 @@ if (percentage >= 100){
 }
 ```
 
-# Full Code
+## Full Code
 
 ```c
 const int dry = 586;
