@@ -46,8 +46,7 @@ The RFID sends radio waves to the active tags, which then send radio waves back 
 ## Programming
 <!-- ![](/img/docs/product_guide/2290(4).jpg) -->
 
-The following code demonstrates how the short proximity sensor works and measures the distance when the sensor is moved
-towards or away from an object, within the range of 4-30cm. If you want to skip the steps, you can jump to the Full Code. 
+The following code demonstrates how read the RFID and NFC cards or keys and receive the ID number.
 
 **Step 1:** Include the libraries needed for this program. You can down load the zip files from onlien and add the zip files to 
 the library under **Sketech** and then under **Include Library**.
@@ -183,7 +182,7 @@ void loop(void) {
 ```
 
 ## Output
-Serial Monitor will display distance that is measure from the proximity sensor, only if the distance measure is less than or equal to the max limit which is 30cm for this exact component.
+Serial Monitor will display the ID number that is received from the Card or key that was scaned.
 
 ![](/img/docs/product_guide/2072(6).jpg)  ![](/img/docs/product_guide/2072(7).jpg) 
 
