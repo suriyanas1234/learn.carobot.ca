@@ -86,7 +86,13 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    ({      
+      algolia: {
+        appId: 'BQBI23OQ61',
+        apiKey: '0e1a6e5769aaac92caeb4b6ec0babc81',
+        indexName: 'carobot',
+        contextualSearch: false,
+      },
       navbar: {
         title: 'Learn at CAROBOT',
         logo: {

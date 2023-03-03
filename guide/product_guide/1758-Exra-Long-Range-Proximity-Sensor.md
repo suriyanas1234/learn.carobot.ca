@@ -24,7 +24,7 @@ The component uses a specific light sensor to detect a light wavelength in the I
 ![](/img/docs/product_guide/1758(4).jpg) 
 
 ## Parts
-* [Sharp Infrared Long-Range Proximity Sensor (Analog 20-150cm)](https://www.canadarobotix.com/products/1758)
+* [Sharp Infrared Long-Range Proximity Sensor (Analog 100-500cm)](https://www.canadarobotix.com/products/1758)
 * [Arduino Uno R3](https://www.canadarobotix.com/products/60)
 * [BreadBoard](https://www.canadarobotix.com/products/223)
 * [10 kΩ resistor](https://www.canadarobotix.com/products/1765)
