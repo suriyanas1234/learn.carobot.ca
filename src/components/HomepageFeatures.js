@@ -12,7 +12,7 @@ const FeatureList = [
     Svg: learnImg, //require('../../static/img/learn.svg').default,
     description: (
       <>
-        Here at CARBOT you can learn through our provided tutorials on 
+        Here at CAROBOT you can learn through our provided tutorials on 
         how to use the components needed for your project!
       </>
     ),
