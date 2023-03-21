@@ -89,9 +89,12 @@ const config = {
     ({      
       algolia: {
         appId: 'BQBI23OQ61',
-        apiKey: '0e1a6e5769aaac92caeb4b6ec0babc81',
+        apiKey: '3b00c9db7f6cbe12d5c5d40b58f1d7e3',
         indexName: 'carobot',
         contextualSearch: false,
+        placeholder: 'Search',
+        searchPagePath: false,
+        searchPage: false
       },
       navbar: {
         title: 'Learn at CAROBOT',
