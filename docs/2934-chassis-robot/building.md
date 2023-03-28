@@ -3,6 +3,8 @@ title: Building
 sidebar_position: 1
 ---
 
+# How to Build Chassis Robot with Arduino
+
 ## Materials:
 * [Simple Robot Chassis Kit](https://www.canadarobotix.com/products/2798) 
 * Screw driver 

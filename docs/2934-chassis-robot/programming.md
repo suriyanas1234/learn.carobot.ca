@@ -3,6 +3,7 @@ title: Programming
 sidebar_position: 3
 ---
 
+# How to Program Chassis Robot Motors with Arduino
 ## Development Tools Needed
 * [Arduino IDE](https://www.arduino.cc/en/software)
 

@@ -1,8 +1,10 @@
 ---
-title: "TinkerKit LCD - Tutorial 05 - Arduino & 2 Wires"
+title: "Arduino & 2 Wires"
 sidebar_position: 6
 slug: tinkerkit-lcd-tutorial-05-arduino-2-wires
 ---
+
+# TinkerKit Arduino LCD - Arduino & 2 Wires
 
 The [TinkerKit LCD module](https://www.canadarobotix.com/products/1654) can be controlled **straight from the Arduino**, using the serial communication, **without any shield or other module**. Remember to **upload the SerialFirmware** into the LCD board, as we did in the four-cable serial tutorial. It’s located under **examples->TKLCD->SerialFirmware**
 

@@ -1,8 +1,10 @@
 ---
-title: "TinkerKit LCD - Tutorial 03 - LCD Serial"
+title: "TinkerKit LCD Serial"
 sidebar_position: 4
 slug: tinkerkit-lcd-tutorial-03-lcd-serial
 ---
+
+# TinkerKit Arduino LCD - LCD Serial
 
 In this tutorial we use the [TinkerKit LCD module](https://www.canadarobotix.com/products/1654) from the Serial port of the TinkerKit! shield.
 

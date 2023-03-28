@@ -1,7 +1,9 @@
 ---
-title: Chapter 8 - Data Conversion
+title: Data Conversion
 sidebar_position: 8
 ---
+
+# What is Data Conversion in Programming?
 
 ## Learning Goals
 By the end of this tutorial, you should be able to:

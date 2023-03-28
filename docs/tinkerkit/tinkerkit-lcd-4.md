@@ -1,8 +1,10 @@
 ---
-title: "TinkerKit LCD - Tutorial 04 - LCD Local (No Arduino)"
+title: "TinkerKit LCD Local (No Arduino)"
 sidebar_position: 5
 slug: tinkerkit-lcd-tutorial-04-lcd-local-no-arduino
 ---
+
+# TinkerKit LCD - LCD Local Without Arduino
 
 The [TinkerKit LCD module](https://www.canadarobotix.com/products/1654) can also be used by itself, **without Arduino** or TinkerKit! shield. That’s because it mounts the same microcontroller as the Arduino Leonardo; thanks to its micro-usb connector, it can be plugged straight into your computer and programmed from the software just like a regular Arduino Leonardo.
 

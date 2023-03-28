@@ -3,6 +3,8 @@ title: Wiring
 sidebar_position: 2
 ---
 
+# How to Wire Chassis Robots with Arduino
+
 ## Materials:
 * [Soldering station](https://www.canadarobotix.com/products/1557) (OPTIONAL)
 * [Wire stripers](https://www.canadarobotix.com/products/1892)

@@ -1,7 +1,9 @@
 ---
-title: Chapter 2 - Types
+title: Variable Types 
 sidebar_position: 2
 ---
+
+# How to Use Programming Variable Types in C
 
 **Types help define and determine the size of data**. It is usually placed in front of a variable to declare its type and data size. Some types that are commonly used in C programming are
 

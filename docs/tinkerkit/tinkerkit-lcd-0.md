@@ -4,6 +4,8 @@ sidebar_position: 1
 slug: tinkerkit-lcd-tutorials
 ---
 
+# TinkerKit Arduino LCD - Tutorials
+
 With the [TinkerKit LCD module](https://www.canadarobotix.com/products/1654), you can write text on the module's screen in a few minutes. The LCD can be used like a regular module by plugging it into the TinkerKit! shield or as an independent component; it has in fact an ATmega 32U4 microcontroller and a USB port on board that make it a fully-fledged LCD-shaped Arduino Leonardo.
 
 <img src="https://cdn.shopify.com/s/files/1/0015/7571/4865/products/1654_20_1_1024x1024@2x.jpg" alt="tinkerkit-lcd" width="300"/>

@@ -1,7 +1,7 @@
 ---
-title: Tinker Kit Folder Intro
+title: TinkerKit Folder Intro
 ---
 
-# Tinker Kit Intro
+# TinkerKit Intro
 hello hello this is a markdown file for the folder under intro of tinker kit.
 

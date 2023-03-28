@@ -1,7 +1,9 @@
 ---
-title: Chapter 6 - Arrays
+title: Arrays
 sidebar_position: 6
 ---
+
+# How to Use Arrays in C
 
 ## Learning Goals
 By the end of this tutorial, you should be able to:

@@ -1,7 +1,9 @@
 ---
-title: Chapter 7 - Functions
+title: Functions
 sidebar_position: 7
 ---
+
+# How to Use Functions in C
 
 ## Learning Goals
 By the end of this tutorial, you should be able to:
