@@ -1,7 +1,9 @@
 ---
-title: Chapter 3 - Literals
+title: Literals
 sidebar_position: 3
 ---
+
+# How to Use Programming Literals in C
 
 Literals are data used for representing fixed values or constant variables that **cannot** be changed or modified. They can be used directly in the code. For example:
 

@@ -1,8 +1,10 @@
 ---
-title: "TinkerKit LCD - Tutorial 01 - Windows Installation Guide"
+title: "Windows Installation Guide"
 sidebar_position: 2
 slug: tinkerkit-lcd-tutorial-01-windows-installation-guide
 ---
+
+# TinkerKit Arduino LCD - Installation Guide
  
 **In order to use your LCD module with Windows, you have to install the driver for it. You can [download the driver from our TinkerKit LCD product page](https://www.canadarobotix.com/products/1654).**
 

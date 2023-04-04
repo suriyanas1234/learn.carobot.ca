@@ -1,7 +1,7 @@
 ---
-title: Intro to Folder Kicad
+title: Intro to Folder KiCAD
 ---
 
-# Kidcad Intro
+# KiCAD Intro
 hello hello this is a markdown file for the folder under intro of Kicad.
 

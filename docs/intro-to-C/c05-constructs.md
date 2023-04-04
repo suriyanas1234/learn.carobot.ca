@@ -1,7 +1,9 @@
 ---
-title: Chapter 5 - Constructs
+title: Programming Constructs
 sidebar_position: 5
 ---
+
+# How to Use Programming Constructs in C
 
 A **construct** is a line of code that performs a specific task under a specific condition, this may include **if**, **if/else**, **elseif** statements, **while**, **for** loops and many more.
 

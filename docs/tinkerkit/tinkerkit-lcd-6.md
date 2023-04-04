@@ -1,8 +1,10 @@
 ---
-title: "TinkerKit LCD - Tutorial 06 - TWI"
+title: "Two-Wire Interface"
 sidebar_position: 6
 slug: tinkerkit-lcd-tutorial-06-arduino-2-wires
 ---
+
+# TinkerKit Arduino LCD - Two-Wire Interface
 
 The [TinkerKit LCD module](https://www.canadarobotix.com/products/1654) also supports TWI connections. TWI stands for “Two-Wire Interface” and it’s another way to call the I2C bus technology. Basically it allows to connect multiple devices in series. This means that you can hook a large number of LCD screens, connecting them “in-line” using the two TWI ports, one for input and one for output. One of them must be the master (or you can use a TInkerKit! shield), while the others must run the TWI firmware. The TWI port has four pins, that’s why we need the [4-pin jumper wire (Molex KK 2.54mm)](https://www.canadarobotix.com/products/1872) cable to connect them.
 

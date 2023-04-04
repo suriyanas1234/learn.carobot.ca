@@ -1,7 +1,9 @@
 ---
-title: Chapter 1 - The Beginning
+title: Introduction to C With Arduino
 sidebar_position: 1
 ---
+
+# C Programming With Arduino for Beginners
 
 Let’s start with a small and fun exercise to introduce ourselves to C programming and Arduino. **Follow the diagram below to assemble your circuit.**
 

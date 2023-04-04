@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
  
-# Intro to KiCAD Basic Tutorial
+# Beginner Tutorial to KiCAD
  
 ## Installation
  

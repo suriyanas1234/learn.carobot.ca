@@ -1,8 +1,10 @@
 ---
-title: "TinkerKit LCD - Tutorial 02 - Introduction to LCD"
+title: Introduction to TinkerKit LCD"
 sidebar_position: 3
 slug: tinkerkit-lcd-tutorial-02-introduction-to-lcd
 ---
+
+# TinkerKit Arduino LCD - Introduction
  
 With the [TinkerKit LCD module](https://www.canadarobotix.com/products/1654) you can write text on the module’s screen in a few minutes. It has an LCD display on board and it requires a dedicated software library that is available [here](https://github.com/carobot/TKLCD-Library). The LCD can be used like a regular module by plugging it into the TinkerKit! shield or as an independent component; it has in fact a microcontroller and a USB port on board that make it a fully-fledged LCD-shaped Arduino Leonardo.
 

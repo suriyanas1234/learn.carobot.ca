@@ -1,7 +1,9 @@
 ---
-title: Chapter 4 - Programming Operator
+title: Programming Operators
 sidebar_position: 4
 ---
+
+# How to Use Programming Operators in C
 
 Operators are symbols that carry out a specific function. For example '*' multiplies two numbers.
 
