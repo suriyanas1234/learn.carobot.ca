@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/canada-robotix-robot.ico',
   organizationName: 'carobot', // Usually your GitHub org/user name.
-  projectName: 'carobot.github.io', // Usually your repo name.
+  projectName: 'learn.carobot.ca', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -52,7 +52,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           lastVersion: 'current',
           onlyIncludeVersions: ['current'],
-          editUrl: 'https://github.com/carobot/carobot.github.io/tree/main/',
+          editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,7 +69,7 @@ const config = {
         path: 'guide',
         routeBasePath: 'guide',
         sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/carobot/carobot.github.io/tree/main/',
+        editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
       }, 
     ],
     [
@@ -79,7 +79,7 @@ const config = {
         path: 'resources',
         routeBasePath: 'resources',
         sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/carobot/carobot.github.io/tree/main/',
+        editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
       }, 
     ],
 ],
