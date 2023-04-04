@@ -1,5 +1,5 @@
 ---
-title: "Arduino & 2 Wires"
+title: Arduino & 2 Wires
 sidebar_position: 6
 slug: tinkerkit-lcd-tutorial-05-arduino-2-wires
 ---

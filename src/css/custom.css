@@ -18,26 +18,26 @@
 
 /* colour of the banner in the home page during light mode */
 :root {
-  --ifm-color-primary: #000000;
-  --ifm-color-primary-dark: #000000;
-  --ifm-color-primary-darker: #000000;
-  --ifm-color-primary-darkest: #000000;
-  --ifm-color-primary-light: #000000;
-  --ifm-color-primary-lighter: #000000;
-  --ifm-color-primary-lightest: #000000;
+  --ifm-color-primary: #c1272d;
+  --ifm-color-primary-dark: #ae2328;
+  --ifm-color-primary-darker: #a42126;
+  --ifm-color-primary-darkest: #871b1f;
+  --ifm-color-primary-light: #d42b32;
+  --ifm-color-primary-lighter: #d6353b;
+  --ifm-color-primary-lightest: #dc5257;
   --ifm-code-font-size: 95%;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 /* colour of the banner in the home page durinf dark mode */
-html[data-theme='dark'] {
-  --ifm-color-primary: #8f8c8c;
-  --ifm-color-primary-dark: #b23634;
-  --ifm-color-primary-darker: #b23634;
-  --ifm-color-primary-darkest: #b23634;
-  --ifm-color-primary-light: #b23634;
-  --ifm-color-primary-lighter: #b23634;
-  --ifm-color-primary-lightest: #b23634;
+[data-theme='dark'] {
+  --ifm-color-primary: #c1272d;
+  --ifm-color-primary-dark: #ae2328;
+  --ifm-color-primary-darker: #a42126;
+  --ifm-color-primary-darkest: #871b1f;
+  --ifm-color-primary-light: #d42b32;
+  --ifm-color-primary-lighter: #d6353b;
+  --ifm-color-primary-lightest: #dc5257;
 }
 
 .docusaurus-highlight-code-line {
@@ -50,6 +50,7 @@ html[data-theme='dark'] {
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgb(0, 0, 0, 0.3);
 }
+
 .pagination-nav {
   display: none;
 }

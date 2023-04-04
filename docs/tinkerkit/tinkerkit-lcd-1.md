@@ -1,5 +1,5 @@
 ---
-title: "Windows Installation Guide"
+title: Windows Installation Guide
 sidebar_position: 2
 slug: tinkerkit-lcd-tutorial-01-windows-installation-guide
 ---

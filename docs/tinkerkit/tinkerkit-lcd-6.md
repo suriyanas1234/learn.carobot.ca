@@ -1,5 +1,5 @@
 ---
-title: "Two-Wire Interface"
+title: Two-Wire Interface
 sidebar_position: 6
 slug: tinkerkit-lcd-tutorial-06-arduino-2-wires
 ---

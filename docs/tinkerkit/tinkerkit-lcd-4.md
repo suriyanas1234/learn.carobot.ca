@@ -1,5 +1,5 @@
 ---
-title: "TinkerKit LCD Local (No Arduino)"
+title: TinkerKit LCD Local (No Arduino)
 sidebar_position: 5
 slug: tinkerkit-lcd-tutorial-04-lcd-local-no-arduino
 ---

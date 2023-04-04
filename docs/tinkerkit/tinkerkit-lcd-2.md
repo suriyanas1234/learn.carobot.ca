@@ -1,5 +1,5 @@
 ---
-title: Introduction to TinkerKit LCD"
+title: Introduction to TinkerKit LCD
 sidebar_position: 3
 slug: tinkerkit-lcd-tutorial-02-introduction-to-lcd
 ---

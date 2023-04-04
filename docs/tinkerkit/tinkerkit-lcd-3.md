@@ -1,5 +1,5 @@
 ---
-title: "TinkerKit LCD Serial"
+title: TinkerKit LCD Serial
 sidebar_position: 4
 slug: tinkerkit-lcd-tutorial-03-lcd-serial
 ---

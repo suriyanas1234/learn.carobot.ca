@@ -1,5 +1,5 @@
 ---
-title: "TinkerKit LCD - Tutorials"
+title: TinkerKit LCD - Tutorials
 sidebar_position: 1
 slug: tinkerkit-lcd-tutorials
 ---
