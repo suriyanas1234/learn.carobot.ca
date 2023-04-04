@@ -1,7 +1,7 @@
 name: Install dependencies
 
 on:
-  workflow_call:
+  workflow_dispatch:
 
 jobs:
   install-dependencies:
