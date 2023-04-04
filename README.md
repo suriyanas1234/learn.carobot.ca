@@ -23,8 +23,8 @@ Run the following code in a terminal:
 Create a fork of this repo then clone it onto your local machine.
 
 ```bash
-$ git clone https://github.com/{your username}/carobot.github.io
-$ cd carobot.github.io/
+$ git clone https://github.com/{your username}/learn.carobot.ca
+$ cd learn.carobot.ca/
 ```
 Create a new branch off of the `main` branch for your change.
 ```bash
